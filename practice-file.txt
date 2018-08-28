@@ -1,0 +1,54 @@
+//practice a few JS commands
+
+/*let x = 3;
+let y = 3;
+let z = 5;
+let a = 12;
+
+console.log((z > x) && (z > y));
+console.log((z > x) && (z > a));
+console.log((a > y) && (z > x) && (x === y));
+
+let x = 3;
+let y = 3;
+let z = 5;
+
+console.log(x <= y);
+console.log(x <= z);
+
+let a = false;
+let b = true;
+
+console.log(a < b);
+console.log(b < a);
+
+let x = 3;
+let y = 3;
+let z = 5;
+let a = 12;
+
+console.log((x > a) || (x === y));
+console.log((x > a) || (a === z));
+console.log((z > x) || (z > y) || (x === y));
+
+let x = 3;
+let y = 3;
+let z = 5;
+let a = 12;
+let c = 0;
+let b = true;
+
+console.log(!b);
+console.log(!c);
+console.log(!((x > a) || (x === y)));*/
+
+let x = 3;
+let y = 3;
+let z = 5;
+let a = 12;
+let b = 5679483;
+let c = 0;
+
+console.log( (x < a) && ( (a > b) || (z > y) ) );
+console.log( (x < a) && (a > b) || (z > y) );
+console.log( (x < a) && (a > b) || (z === y) );
