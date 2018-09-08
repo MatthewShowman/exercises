@@ -39,10 +39,10 @@ function timesFive(array) {
     for (i = 0; i <= array.length-1; i++) { 
         finalArray.push(array[i] * 5);
     }
-    console.log(finalArray);
+    return finalArray;
 }
 
-timesFive(multiplierArray);
+console.log(timesFive(multiplierArray));
 
 
 // Ex 4. Create a function that takes two arguments. This function should return an array that contains all the numbers between the two provided numbers.
