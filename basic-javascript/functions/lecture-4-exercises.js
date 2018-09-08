@@ -8,7 +8,7 @@ function logAnArray(anArray) {
 
 let myArray = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
 
-//logAnArray(myArray);
+logAnArray(myArray);
 
 
 // Ex 2. Create a function that logs true if the argument provided is a number, and false otherwise.
@@ -16,7 +16,7 @@ let myArray = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
 function trueNumber(array) {
     let numberTest = false;
     for (i = 0; i <= array.length-1; i++) {
-        if (typeof array[i] == 'number') {
+        if (typeof array[i] === 'number') {
             numberTest = true;
         } else {
             numberTest = false;
@@ -27,7 +27,7 @@ function trueNumber(array) {
 
 let mixedArray = [1, 'a', 2, 'b', 3, 'c', 4, true];
 
-//trueNumber(mixedArray);
+trueNumber(mixedArray);
 
 
 // Ex 3. Create a function that takes an array as an argument and multiplies each number in the array by 5 then returns a new array containing the new values.
@@ -42,7 +42,7 @@ function timesFive(array) {
     console.log(finalArray);
 }
 
-//timesFive(multiplierArray);
+timesFive(multiplierArray);
 
 
 // Ex 4. Create a function that takes two arguments. This function should return an array that contains all the numbers between the two provided numbers.
@@ -67,7 +67,7 @@ function numbersBetween(a, b) {
     console.log(numbers);
 }
 
-// numbersBetween(3, 22);
+numbersBetween(3, 22);
 
 
 // Ex 5. Create a function takes another function as an argument and multiplies the returned value of that function by 10.
@@ -78,7 +78,7 @@ function timesTen(number) {
 }
 
 function getAge(number) {
-    myAge = number;
+    myAge = number / 2;
     return myAge;
 }
 
