@@ -48,26 +48,26 @@ console.log(timesFive(multiplierArray));
 // Ex 4. Create a function that takes two arguments. This function should return an array that contains all the numbers between the two provided numbers.
 
 function numbersBetween(a, b) {
-    let lowNumber;
-    let highNumber;
+    let low;
+    let high;
     let numbers = [];
 
     if (a > b) {
-        lowNumber = b;
-        highNumber = a;
+        low = b;
+        high = a;
     } else {
-        lowNumber = a;
-        highNumber = b;
+        low = a;
+        high = b;
     }
 
-    for (let i = lowNumber + 1; i < highNumber; i++) {
+    for (let i = low + 1; i < high; i++) {
         numbers.push(i);
     }
 
-    console.log(numbers);
+    return numbers;
 }
 
-numbersBetween(3, 22);
+console.log(numbersBetween(22, 3));
 
 
 // Ex 5. Create a function takes another function as an argument and multiplies the returned value of that function by 10.
