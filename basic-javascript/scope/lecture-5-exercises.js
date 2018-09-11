@@ -53,21 +53,21 @@ console.log(longestWord(sentence));
 // Exercise 3
 
 function validatePhoneNumber(numString) {
+    
     newNumString = '';
+    
+    //Check the string for non-numeral characters
     for(i = 0; i < numString.length; i++) {
-        if (numString.charCodeAt(i) >= 48 && numString.charCodeAt(i) <= 57) {
-            newNumString += numString.charAt(i);
+        if (numString.charCodeAt(i) >= 48 && numString.charCodeAt(i) <= 57) { //Checking the ASCII code values for each character in the string
+            newNumString += numString.charAt(i); //Creating a new string IF the ASCII indicates that it's a number between 0 and 9
         }
     }
     
+    //Test the string for the proper number of digits
     if (newNumString.length == 10) {
         return newNumString;
-    } else if (newNumString.length >= 11) {
-        if (newNumString.charAt(0) === '1') {
-            return newNumString.substring(1);
-        } else {
-            return '0000000000';
-        }
+    } else if (newNumString.length == 11 && newNumString.charAt(0) === '1') { //Check for an extra 1 at the beginning of an 11 digit number
+        return newNumString.substring(1);
     } else {
         return '0000000000';
     }
@@ -78,7 +78,7 @@ console.log(validatePhoneNumber('123.456.7890'));
 console.log(validatePhoneNumber('11234567890'));  
 console.log(validatePhoneNumber('21234567890'));  
 console.log(validatePhoneNumber('123456789'));
-console.log(validatePhoneNumber('212345678901234'));
+console.log(validatePhoneNumber('1212345678901234'));
 console.log(validatePhoneNumber('123'));  
 
 
