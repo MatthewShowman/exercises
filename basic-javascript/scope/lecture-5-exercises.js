@@ -35,7 +35,7 @@ function longestWord(string) {
     let sentenceToArray = string.split(' ');
     let finalWord = '';
     
-    for(i = 0; i < sentenceToArray.length; i++) {
+    for(i = 0; i < sentenceToArray.length; i++) { //See code below for the for loop
         let length = sentenceToArray[i].length;
         if (length > base) {
             base = length;
@@ -47,6 +47,15 @@ function longestWord(string) {
 }
 
 console.log(longestWord(sentence));
+
+/*
+let word = words[i];
+
+if (word.length > longestLength) {
+    longestLength = word.length;
+    longestWord = word;
+}
+*/
 
 
 
