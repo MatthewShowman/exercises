@@ -86,7 +86,7 @@ function filteredArray(arr, elem) {
     },
     Sarah: {
       age: 48,
-      online: false
+      online: true
     },
     Ryan: {
       age: 19,
@@ -98,16 +98,53 @@ function filteredArray(arr, elem) {
   function countOnline(obj) {
     // change code below this line
     let numUsers = 0;
+
     for (let person in obj) {
-      if (person['online'] == true) {
+
+      if (obj[person].online == true) {
         numUsers += 1;
       }
-      
-      return numUsers;
     }
-
+    return numUsers;
     // change code above this line
   }
   
   console.log(countOnline(users));
   console.log(users);
+
+
+
+
+  //Modify an Array Stored in an Object
+
+  let user = {
+    name: 'Kenneth',
+    age: 28,
+    data: {
+      username: 'kennethCodesAllDay',
+      joinDate: 'March 26, 2016',
+      organization: 'freeCodeCamp',
+      friends: [
+        'Sam',
+        'Kira',
+        'Tomo'
+      ],
+      location: {
+        city: 'San Francisco',
+        state: 'CA',
+        country: 'USA'
+      }
+    }
+  };
+  
+  function addFriend(userObj, friend) { //Add name to th3e list of friends
+    // change code below this line  
+    let workArray = [];
+    workArray = userObj.data.friends;
+    workArray.push(friend);
+    userObj.data.friends = workArray;
+    return workArray;
+    // change code above this line
+  }
+  
+  console.log(addFriend(user, 'Pete'));
