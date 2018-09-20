@@ -119,19 +119,63 @@ console.log(truncateString("A-", 1));
 // and returns the first element in the array that passes a truth test (second argument).
 // If no element passes the test, return undefined.
 
-// console.log(findElement([1, 3, 5, 8, 9, 10], function(num) { return num % 2 === 0; })); // 8
-// console.log(findElement([1, 3, 5, 9], function(num) { return num % 2 === 0; })); //undefined
+console.log(findElement([1, 3, 5, 8, 9, 10], function(num) { return num % 2 === 0; })); // 8
+console.log(findElement([1, 3, 5, 9], function(num) { return num % 2 === 0; })); //undefined
 
 function findElement(arr, func) {
    let num = 0;
    for (let i = 0; i < arr.length; i++) {
      if (func(arr[i])) {
       num = arr[i];
-     } else {
-      num = undefined;
+      break;
      }
+   }
+   if (num === 0) {
+     num = undefined;
    }
    return num;
 }
 
-findElement([1, 2, 3, 4], num => num % 2 === 0);
+
+
+
+// Title Case a Sentence 1.0
+
+function titleCase(str) {
+
+   let stringArray = str.split(" ");
+
+   for (let i = 0; i < stringArray.length; i++) {
+    let stringItem = stringArray[i]
+    stringItem = stringItem.substring(0,1).toUpperCase() + stringItem.substring(1).toLowerCase();
+    stringArray[i] = stringItem;
+   }
+  str = stringArray.join(" ");
+  return str;
+}
+
+console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("sHoRt AnD sToUt"));
+console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
+
+
+
+
+
+// Title Case a Sentence 2.0
+
+function titleCaseB(str) {
+
+  let stringArray = str.split(" ");
+
+  for (let i = 0; i < stringArray.length; i++) {
+   let stringItem = stringArray[i].substring(0,1).toUpperCase() + stringArray[i].substring(1).toLowerCase();
+   stringArray[i] = stringItem;
+  }
+ str = stringArray.join(" ");
+ return str;
+}
+
+console.log(titleCaseB("I'm a little tea pot"));
+console.log(titleCaseB("sHoRt AnD sToUt"));
+console.log(titleCaseB("HERE IS MY HANDLE HERE IS MY SPOUT"));
