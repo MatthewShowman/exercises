@@ -179,3 +179,102 @@ function titleCaseB(str) {
 console.log(titleCaseB("I'm a little tea pot"));
 console.log(titleCaseB("sHoRt AnD sToUt"));
 console.log(titleCaseB("HERE IS MY HANDLE HERE IS MY SPOUT"));
+
+
+
+
+
+// Slice and Splice 1.0
+
+function frankenSplice(arr1, arr2, n) {
+  // It's alive. It's alive!
+  let frankenArray = arr2.splice();
+  
+  for( let i = 0; i < arr1.length; i++) {  
+  let inner = arr1[i];
+    frankenArray.splice(n + i, 0, inner);
+  }
+  return frankenArray;
+}
+
+console.log(frankenSplice([1, 2, 3], [4, 5], 1)); // Output [4, 1, 2, 3, 5]
+console.log(frankenSplice([1, 2], ["a", "b"], 1)); // Output ["a", 1, 2, "b"]
+console.log(frankenSplice(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2)); // Output ["head", "shoulders", "claw", "tentacle", "knees", "toes"]
+
+
+
+
+
+// Slice and Splice 2.0
+
+function frankenSpliceB(arr1, arr2, n) {
+  // It's alive. It's alive!
+  let frankenArray = Array.from(arr2);
+  
+  for( let i = 0; i < arr1.length; i++) {  
+  let inner = arr1[i];
+    frankenArray.splice(n + i, 0, inner);
+  }
+  return frankenArray;
+}
+
+console.log(frankenSpliceB([1, 2, 3], [4, 5], 1)); // Output [4, 1, 2, 3, 5]
+console.log(frankenSpliceB([1, 2], ["a", "b"], 1)); // Output ["a", 1, 2, "b"]
+console.log(frankenSpliceB(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2)); // Output ["head", "shoulders", "claw", "tentacle", "knees", "toes"]
+
+
+
+
+// Falsy Bouncer 1.0
+// Remove all falsy values from an array.
+// Falsy values in JavaScript are false, null, 0, "", undefined, and NaN
+// Hint: Try converting each value to a Boolean
+
+
+function bouncer(arr) {
+  // Don't show a false ID to this bouncer.
+  let newArray = [];
+
+  for(let i = 0; i < arr.length; i++) {
+    if (arr[i]) {
+      newArray.push(arr[i]);
+    }
+  }
+  
+  return newArray;
+}
+
+console.log(bouncer([7, "ate", "", false, 9])) // return [7, "ate", 9].
+console.log(bouncer(["a", "b", "c"])) // return ["a", "b", "c"].
+console.log(bouncer([false, null, 0, NaN, undefined, ""])) // return [].
+console.log(bouncer([1, null, NaN, 2, undefined])) // return [1, 2]
+
+
+
+
+// Where do I Belong 1.0
+// Return the lowest index at which a value (second argument)
+// should be inserted into an array (first argument) once it has been sorted.
+// The returned value should be a number.
+
+function getIndexToIns(arr, num) {
+  // Find my place in this sorted array.
+  
+  function compareNumbers(a, b) {
+    return a - b;
+  }
+  arr.sort(compareNumbers);
+ 
+  for ( let i = 0; i < arr.length; i++) {
+    if (arr[i] >= num) {
+      return i;
+    }
+  }
+  return arr.length;
+}
+
+console.log(getIndexToIns([40, 60], 50));
+console.log(getIndexToIns([10, 20, 30, 40, 50], 35)); // return 3
+console.log(getIndexToIns([10, 20, 30, 40, 50], 30)); // return 2.
+console.log(getIndexToIns([3, 10, 5], 3)); // return 0
+console.log(getIndexToIns([], 1));  // return 0

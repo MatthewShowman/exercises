@@ -89,7 +89,7 @@ function authList (usernames) {
         // create a bool to store if username has number
         let hasNumber = false;
 
-        for (let j = 0; j < usernames[i].length; j++) {
+        for (let j = 0; j < usernames[i].length; j++) { // A given char can only satisfy ONE of the tests below
             let charCode = usernames[i].charCodeAt(j);
             
             // If char is lowercase,
