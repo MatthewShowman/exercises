@@ -278,3 +278,32 @@ console.log(getIndexToIns([10, 20, 30, 40, 50], 35)); // return 3
 console.log(getIndexToIns([10, 20, 30, 40, 50], 30)); // return 2.
 console.log(getIndexToIns([3, 10, 5], 3)); // return 0
 console.log(getIndexToIns([], 1));  // return 0
+
+
+
+
+// Mutations
+// Return true if the string in the first element of the array
+// contains all of the letters of the string in the second element of the array.
+
+function mutation(arr) {
+  // convert both strings in the array to lowercase strings
+  let firstString = arr[0].toLowerCase();
+  let secondString = arr[1].toLowerCase();
+  let charTest = true;
+  
+  
+  for (let i = 0; i < secondString.length; i++) {
+    for (let j = 0; j < firstString.length; j++) {
+      if (secondString[i] !== firstString[j]) {
+        charTest = false;
+      }
+    }
+  }
+
+  return charTest;
+}
+
+console.log(mutation(["hello", "hey"])); // false
+console.log(mutation(["hello", "Hello"])) // true
+
