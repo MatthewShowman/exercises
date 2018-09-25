@@ -17,10 +17,10 @@ function largestOfFour(arr) {
     return arr;
   }
   
-  // console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
-  // console.log(largestOfFour([[13, 27, 18, 26], [4, 5, 1, 3], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
-  // console.log(largestOfFour([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]]));
-  // console.log(largestOfFour([[17, 23, 25, 12], [25, 7, 34, 48], [4, -10, 18, 21], [-72, -3, -17, -10]]));
+  console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
+  console.log(largestOfFour([[13, 27, 18, 26], [4, 5, 1, 3], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
+  console.log(largestOfFour([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]]));
+  console.log(largestOfFour([[17, 23, 25, 12], [25, 7, 34, 48], [4, -10, 18, 21], [-72, -3, -17, -10]]));
 
 
 
@@ -36,10 +36,10 @@ function largestOfFourB(arr) {
   return arr;
 }
 
-// console.log(largestOfFourB([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
-// console.log(largestOfFourB([[13, 27, 18, 26], [4, 5, 1, 3], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
-// console.log(largestOfFourB([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]]));
-// console.log(largestOfFourB([[17, 23, 25, 12], [25, 7, 34, 48], [4, -10, 18, 21], [-72, -3, -17, -10]]));
+console.log(largestOfFourB([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
+console.log(largestOfFourB([[13, 27, 18, 26], [4, 5, 1, 3], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
+console.log(largestOfFourB([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]]));
+console.log(largestOfFourB([[17, 23, 25, 12], [25, 7, 34, 48], [4, -10, 18, 21], [-72, -3, -17, -10]]));
 
 
 
@@ -55,12 +55,12 @@ function confirmEnding(str, target) {
   return testString === target;
 }
 
-// console.log(confirmEnding("Bastian", "n"));
-// console.log(confirmEnding("Congratulation", "on"));
-// console.log(confirmEnding("Connor", "n"));
-// console.log(confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification"));
-// console.log(confirmEnding("He has to give me a new name", "name"));
-// console.log(confirmEnding("Open sesame", "same"));
+console.log(confirmEnding("Bastian", "n"));
+console.log(confirmEnding("Congratulation", "on"));
+console.log(confirmEnding("Connor", "n"));
+console.log(confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification"));
+console.log(confirmEnding("He has to give me a new name", "name"));
+console.log(confirmEnding("Open sesame", "same"));
 
 
 
@@ -84,9 +84,9 @@ function repeatStringNumTimes(str, num) {
   return repeatedString;
 }
 
-// console.log(repeatStringNumTimes("abc", 3));
-// console.log(repeatStringNumTimes("*", 3));
-// console.log(repeatStringNumTimes("&", -2));
+console.log(repeatStringNumTimes("abc", 3));
+console.log(repeatStringNumTimes("*", 3));
+console.log(repeatStringNumTimes("&", -2));
 
 
 
@@ -107,9 +107,9 @@ function truncateString(str, num) {
   return truncatedString;
 }
 
-// console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8));
-// console.log(truncateString("Peter Piper picked a peck of pickled peppers", 11));
-// console.log(truncateString("A-", 1));
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8));
+console.log(truncateString("Peter Piper picked a peck of pickled peppers", 11));
+console.log(truncateString("A-", 1));
 
 
 
@@ -119,8 +119,8 @@ function truncateString(str, num) {
 // and returns the first element in the array that passes a truth test (second argument).
 // If no element passes the test, return undefined.
 
-// console.log(findElement([1, 3, 5, 8, 9, 10], function(num) { return num % 2 === 0; })); // 8
-// console.log(findElement([1, 3, 5, 9], function(num) { return num % 2 === 0; })); //undefined
+console.log(findElement([1, 3, 5, 8, 9, 10], function(num) { return num % 2 === 0; })); // 8
+console.log(findElement([1, 3, 5, 9], function(num) { return num % 2 === 0; })); //undefined
 
 function findElement(arr, func) {
    let num = 0;
@@ -154,9 +154,9 @@ function titleCase(str) {
   return str;
 }
 
-// console.log(titleCase("I'm a little tea pot"));
-// console.log(titleCase("sHoRt AnD sToUt"));
-// console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
+console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("sHoRt AnD sToUt"));
+console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
 
 
 
@@ -176,9 +176,9 @@ function titleCaseB(str) {
  return str;
 }
 
-// console.log(titleCaseB("I'm a little tea pot"));
-// console.log(titleCaseB("sHoRt AnD sToUt"));
-// console.log(titleCaseB("HERE IS MY HANDLE HERE IS MY SPOUT"));
+console.log(titleCaseB("I'm a little tea pot"));
+console.log(titleCaseB("sHoRt AnD sToUt"));
+console.log(titleCaseB("HERE IS MY HANDLE HERE IS MY SPOUT"));
 
 
 
@@ -197,9 +197,9 @@ function frankenSplice(arr1, arr2, n) {
   return frankenArray;
 }
 
-// console.log(frankenSplice([1, 2, 3], [4, 5], 1)); // Output [4, 1, 2, 3, 5]
-// console.log(frankenSplice([1, 2], ["a", "b"], 1)); // Output ["a", 1, 2, "b"]
-// console.log(frankenSplice(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2)); // Output ["head", "shoulders", "claw", "tentacle", "knees", "toes"]
+console.log(frankenSplice([1, 2, 3], [4, 5], 1)); // Output [4, 1, 2, 3, 5]
+console.log(frankenSplice([1, 2], ["a", "b"], 1)); // Output ["a", 1, 2, "b"]
+console.log(frankenSplice(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2)); // Output ["head", "shoulders", "claw", "tentacle", "knees", "toes"]
 
 
 
@@ -218,9 +218,9 @@ function frankenSpliceB(arr1, arr2, n) {
   return frankenArray;
 }
 
-// console.log(frankenSpliceB([1, 2, 3], [4, 5], 1)); // Output [4, 1, 2, 3, 5]
-// console.log(frankenSpliceB([1, 2], ["a", "b"], 1)); // Output ["a", 1, 2, "b"]
-// console.log(frankenSpliceB(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2)); // Output ["head", "shoulders", "claw", "tentacle", "knees", "toes"]
+console.log(frankenSpliceB([1, 2, 3], [4, 5], 1)); // Output [4, 1, 2, 3, 5]
+console.log(frankenSpliceB([1, 2], ["a", "b"], 1)); // Output ["a", 1, 2, "b"]
+console.log(frankenSpliceB(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2)); // Output ["head", "shoulders", "claw", "tentacle", "knees", "toes"]
 
 
 
@@ -244,10 +244,10 @@ function bouncer(arr) {
   return newArray;
 }
 
-// console.log(bouncer([7, "ate", "", false, 9])) // return [7, "ate", 9].
-// console.log(bouncer(["a", "b", "c"])) // return ["a", "b", "c"].
-// console.log(bouncer([false, null, 0, NaN, undefined, ""])) // return [].
-// console.log(bouncer([1, null, NaN, 2, undefined])) // return [1, 2]
+console.log(bouncer([7, "ate", "", false, 9])) // return [7, "ate", 9].
+console.log(bouncer(["a", "b", "c"])) // return ["a", "b", "c"].
+console.log(bouncer([false, null, 0, NaN, undefined, ""])) // return [].
+console.log(bouncer([1, null, NaN, 2, undefined])) // return [1, 2]
 
 
 
@@ -273,11 +273,11 @@ function getIndexToIns(arr, num) {
   return arr.length;
 }
 
-// console.log(getIndexToIns([40, 60], 50));
-// console.log(getIndexToIns([10, 20, 30, 40, 50], 35)); // return 3
-// console.log(getIndexToIns([10, 20, 30, 40, 50], 30)); // return 2.
-// console.log(getIndexToIns([3, 10, 5], 3)); // return 0
-// console.log(getIndexToIns([], 1));  // return 0
+console.log(getIndexToIns([40, 60], 50));
+console.log(getIndexToIns([10, 20, 30, 40, 50], 35)); // return 3
+console.log(getIndexToIns([10, 20, 30, 40, 50], 30)); // return 2.
+console.log(getIndexToIns([3, 10, 5], 3)); // return 0
+console.log(getIndexToIns([], 1));  // return 0
 
 
 
@@ -290,43 +290,20 @@ function mutation(arr) {
   // convert both strings in the array to lowercase strings
   let firstString = arr[0].toLowerCase();
   let secondString = arr[1].toLowerCase();
+  let charTest = true;
   
-  // select each char from the second string
+  // take each char of the second string
   for (let i = 0; i < secondString.length; i++) {
-    // search the first string
-      // if the second string character is not present anywhere in the first string, return false
-    if (firstString.indexOf(secondString[i]) < 0) {
-        return false;
+    for (let j = 0; j < firstString.length; j++) {
+      if (secondString[i] !== firstString[j]) {
+        charTest = false;
+      }
     }
   }
-  return true;
+
+  return charTest;
 }
 
-// console.log(mutation(["hello", "hey"])); // false
-// console.log(mutation(["hello", "Hello"])); // true
-// console.log(mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])); // true
-// console.log(mutation(["Mary", "Army"])); // true
-// console.log(mutation(["Mary", "Aarmy"])); // true
-// console.log(mutation(["voodoo", "no"])); // false
+console.log(mutation(["hello", "hey"])); // false
+console.log(mutation(["hello", "Hello"])) // true
 
-
-
-
-
-// Chunky Monkey
-
-function chunkArrayInGroups(arr, size) {
-  // Break it up.
-  let splitArray = [];
-
-  for (let i = 0; i < arr.length; i += size) {
-    // let tempArray = arr.slice(i, i + size);
-    // splitArray.push(tempArray);
-    splitArray.push(arr.slice(i, i + size));
-  }
-  return splitArray;
-}
-
-console.log(chunkArrayInGroups(["a", "b", "c", "d"], 2)); // [["a", "b"], ["c", "d"]]
-console.log(chunkArrayInGroups([0, 1, 2, 3, 4, 5], 2)); // [[0, 1], [2, 3], [4, 5]]
-console.log(chunkArrayInGroups([0, 1, 2, 3, 4, 5, 6], 3)); // [[0, 1, 2], [3, 4, 5], [6]]
