@@ -1,22 +1,39 @@
-const fs = require('fs');
-const http = require('http');
+// Server to read and output.
 
-http.createServer(onRequest).listen(3000);
-console.log(`Server is now running...`);
+let http = require('http');
+let fs = require('fs');
 
-function onRequest(request, response) {
-    console.log(`A user made a request: ${request.url}`);
-    response.writeHead(200, {'Content-Type': 'text/plain'});
-    // fs.readFile(__dirname + '/hello-world.txt', 'utf8', (err, data) => {
-    //     if (err) {
-    //         console.log(err.message);
-    //         return;
-    //     }
-    //     console.log(data);
-    //     console.log(err);
-    // });
-    response.write(`Hello World!`);
-    response.end();
-}
+// let server = http.createServer(function (req, res) {
+//   fs.readFile('./hello-world.txt', 'utf-8', function(err, data) {
+//       res.write(data);
+//       res.end();
+//   })
+
+// });
+
+// server.listen(3000);
+// console.log('Server listening on port 3000...');
 
 
+// Server to create, read and write
+
+let server = http.createServer(function (req, res) {
+    fs.writeFile('./filename.txt', '', (err) => {
+        if (err) {
+            console.log(err);
+        }
+        fs.appendFile('./filename.txt', 'some stuff', (err) => {
+            if (err) {
+                console.log(err);
+            }
+            fs.readFile('./filename.txt', 'utf-8', (err, fileData) => {
+                res.write(fileData);
+                res.end();
+            });
+        });
+    });
+});
+
+
+server.listen(fs.readFileSync('./port.conf', 'utf8'));
+console.log('Server listening on port 1818...');
