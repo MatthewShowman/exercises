@@ -25,8 +25,13 @@ function tripleAfterThreeSeconds(number) {
     to the same function two more times.
 */
 
-tripleAfterThreeSeconds(3)
-    .then ((num) => tripleAfterThreeSeconds(num))
-    .then ((num) => tripleAfterThreeSeconds(num))
+tripleAfterThreeSeconds(B)
+    .then (num => tripleAfterThreeSeconds(num))
+    .then (num => tripleAfterThreeSeconds(num))
+    .catch ((error) => {
+        if (typeof char !== number) {
+            console.log(error);
+        }
+    })
 
 

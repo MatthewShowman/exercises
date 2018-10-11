@@ -1,5 +1,12 @@
 const axios = require('axios'); // Documentation at https://www.npmjs.com/package/axios
 
+async function getRepos () {
+    let result = await axios.get('https://api.github.com/users/MatthewShowman');
+    console.log(result.data.public_repos);
+}
+
+getRepos();
+
 axios.get('https://api.github.com/users/MatthewShowman')
     .then(response => {
         // console.log(response.data);
