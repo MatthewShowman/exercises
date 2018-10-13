@@ -1,10 +1,17 @@
-const fs = require('fs');
-const profiles = require('./profiles.js');
+// const fs = require('fs');
+const profiles = require('./profiles');
 
 
-
-function getInfo(arr, key) {
-    fs.readFile('./profile.txt', 'utf-8', (err, fileData) => {
-        res.write(fileData);
-        res.end();
+function getObj(arr, nameKey) {
+    let performer = {};
+    for (var i = 0; i < arr.length; i++) {
+        if (this.name === nameKey) {
+            performer = arr[i];
+        }
+    }
+    console.log(performer.searchKey);
+    return performer.searchKey;
 }
+
+getObj(profiles, 'Katana');
+// module.exports = getInfo();
