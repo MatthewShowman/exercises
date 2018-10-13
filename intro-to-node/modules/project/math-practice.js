@@ -1,4 +1,4 @@
-const math = require('./math-module');
+const math = require('../../../../assignments/my-math-module-MatthewShowman/MyMath/math-module');
 
 let sum = math.add(3, 4);  // 7
 console.log(sum);
