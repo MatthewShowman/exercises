@@ -17,7 +17,7 @@ let fs = require('fs');
 
 // Server to create, read and write
 
-let server = http.createServer(function (req, res) {
+const server = http.createServer(function (req, res) {
     fs.writeFile('./filename.txt', '', (err) => {
         if (err) {
             console.log(err);
