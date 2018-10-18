@@ -6,9 +6,10 @@ function createFile(fileName, data = '') {
     return new Promise (function(resolve, reject) {
         fs.writeFile(path.join(__dirname,fileName), data, (err) => {
             if (err) {
-                reject(err);
+                reject(new Error("Error with createFile"));
             }
-            resolve(fileName + ' has been created.');
+            console.log(fileName + ' has been created.');
+            resolve();
         });
     });
 }
@@ -17,7 +18,7 @@ function readFile(fileName) {
     return new Promise (function(resolve, reject) {
         fs.readFile(path.join(__dirname,fileName), 'utf8', (err, data) => {
             if (err) {
-                reject(err);
+                reject(new Error("Error with readFile"));
             }
             console.log(data);
             resolve(data);
@@ -29,7 +30,7 @@ function appendFile(fileName, data) {
     return new Promise (function(resolve, reject) {
         fs.appendFile(path.join(__dirname,fileName), data, (err) => {
             if (err) {
-                reject(err);
+                reject(new Error("Error with appendFile"));
             }
             console.log(fileName + ' has been appended');
             resolve();
