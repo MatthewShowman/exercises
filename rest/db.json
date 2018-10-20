@@ -1,0 +1,24 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Star Wars",
+      "category": "sci-fi"
+    },
+    {
+      "title": "big fish",
+      "category": "drama",
+      "id": 2
+    },
+    {
+      "title": "Les Miserables",
+      "category": "drama",
+      "id": 3
+    },
+    {
+      "title": "Elf",
+      "category": "comedy",
+      "id": 4
+    }
+  ]
+}
