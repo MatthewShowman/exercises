@@ -6,7 +6,7 @@
       "category": "sci-fi"
     },
     {
-      "title": "big fish",
+      "title": "Big Fish",
       "category": "drama",
       "id": 2
     },
@@ -19,6 +19,15 @@
       "title": "Elf",
       "category": "comedy",
       "id": 4
+    },
+    {
+      "title": "Oklahoma",
+      "id": 5,
+      "category": "comedy"
+    },
+    {
+      "title": "School of Rock",
+      "id": 6
     }
   ]
 }
