@@ -28,5 +28,6 @@ async function createAppendReadWrite(fileName, message) {
 }
 
 async function multiplyFiveTimes() {
+    let fiveCalls = [];
     
 }

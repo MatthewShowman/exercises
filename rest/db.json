@@ -23,11 +23,27 @@
     {
       "title": "Oklahoma",
       "id": 5,
-      "category": "comedy"
+      "category": "musical"
     },
     {
       "title": "School of Rock",
-      "id": 6
+      "id": 6,
+      "category": "comedy"
+    },
+    {
+      "title": "50 First Dates",
+      "id": 7,
+      "category": "rom-com"
+    },
+    {
+      "title": "Ninjago",
+      "id": 8,
+      "category": "animated"
+    },
+    {
+      "title": "Night of the Living Dead",
+      "id": 9,
+      "category": "horror"
     }
   ]
 }
