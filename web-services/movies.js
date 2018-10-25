@@ -31,8 +31,24 @@ const server = http.createServer((req, res) => {
         } else {
             res.end(JSON.stringify(movies));
         }
-    } else if (rlObj.pathname === '/movies' && req.method === 'POST') {
+    } else if (urlObj.pathname === '/movies' && req.method === 'POST') {
         // TODO Add the movie to our array
+        let body = "";
+        req.on('data', (chunk) => {
+            body += chunk;
+        });
+
+        req.on('end', () => {
+            res.writeHead(200, {
+                'Content-Type': 'application/json',
+            });
+            let movie = JSON.parse(body);
+            
+            movies.push(movie);
+            movie.id = movies.length;
+            res.end(JSON.stringify(movie));
+        })
+
     } else {
         res.writeHead(404);
         res.end('Not found');
