@@ -1,0 +1,11 @@
+html
+    head
+        title= title
+    body
+        h1.bigger= title
+        - let subtitle = 'list of restuarants'
+        p= subtitle
+            ul
+                each restaurant in restaurants
+                    li= restaurant
+            img(src= image)
