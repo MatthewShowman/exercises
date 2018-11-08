@@ -3,9 +3,10 @@ html
         title= title
     body
         h1.bigger= title
-        - let subtitle = 'list of restuarants'
+        - let subtitle = 'List of Restaurants'
         p= subtitle
             ul
                 each restaurant in restaurants
-                    li= restaurant
-            img(src= image)
+                    li
+                        a(href='/restaurant/'+restaurant.id)= restaurant.name
+            img(src=image)

@@ -1,0 +1,18 @@
+html
+    head
+        title= foundRestaurant.name
+    body
+        h1= foundRestaurant.name
+        - let subtitle = 'Details about ' + foundRestaurant.name
+        p= subtitle
+        div Food
+        ul
+            each foodItem in foundRestaurant.food
+                li= foodItem
+
+        p= `Food: ${foundRestaurant.food.join(', ')}`
+        div Address
+        br
+        = `${foundRestaurant.address}`
+        br
+        = `${foundRestaurant.city}, ${foundRestaurant.state}`

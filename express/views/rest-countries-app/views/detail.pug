@@ -1,0 +1,8 @@
+html
+    head
+        title= foundCountry.name
+    body
+        h1= foundCountry.name
+        - let subtitle = 'Details about ' + foundCountry.name
+        div Languages
+        = `${foundCountry.languages.name}`
