@@ -3,6 +3,21 @@ html
         title= foundCountry.name
     body
         h1= foundCountry.name
-        - let subtitle = 'Details about ' + foundCountry.name
+        h3= `Details about ${foundCountry.name}`
+        
+        p= `Capital City: ${foundCountry.capital}`
+        p= `Population: ${foundCountry.population}`
+        p= `Land Area: ${foundCountry.area} sq km`
         div Languages
-        = `${foundCountry.languages.name}`
+        = `${foundCountry.languages[0].name}`
+        p
+        div Currencies
+        = `${foundCountry.currencies[0].name} / ${foundCountry.currencies[0].symbol}`
+        p
+        div Flag
+        img(src=foundCountry.flag alt=`Flag of ${foundCountry.name}` width='10%' length='10%')
+        p
+        div Location
+        img(src=`https://geology.com/world/${foundCountry.name.toLowerCase()}-satellite-image.shtml`)
+        iframe(src=`https://www.google.com/maps/embed?pb=${foundCountry.name}` width='400' height='300')
+        iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4676121.739789052!2d19.399052488360773!3d55.091166293830334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd94140f33be13%3A0xf30a54d3a55dbab9!2sLithuania!5e0!3m2!1sen!2sus!4v1541726340989' width='400' height='300' frameborder='0' style='border:0')

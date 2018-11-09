@@ -6,4 +6,4 @@ html
         ul
             each country in countries
                 li
-                    a(href='/:id/'+country.id)= country.name
+                    a(href='/' + country.alpha3Code)= country.name

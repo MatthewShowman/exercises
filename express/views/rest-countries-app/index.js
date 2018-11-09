@@ -4,6 +4,7 @@ const pug = require('pug');
 
 const app = express();
 app.set('view engine', 'pug');
+
 let countries;
 
 axios.get('https://restcountries.eu/rest/v2/region/europe')
@@ -15,8 +16,8 @@ app.get('/',  (req, res) => {
     res.render('countries.pug', {countries});
 });
 
-app.get('/:id',  (req, res) => {
-    let foundCountry = countries.find(country => country.id == req.params.id);
+app.get('/:alpha3Code',  (req, res) => {
+    let foundCountry = countries.find(country => country.alpha3Code == req.params.alpha3Code);
     res.render('detail.pug', {foundCountry});
 });
 
