@@ -9,8 +9,8 @@ const databaseConnection = mysql.createConnection({
 });
 
 
-function sell (database, keyInt) {
-    let sql = `UPDATE ${database} SET inventory = ${database.inventory - 1}
+function sell (tableName, keyInt) {
+    let sql = `UPDATE ${tableName} SET inventory = ${tableName.inventory - 1}
     WHERE id = ${keyInt}`;
 
     databaseConnection.query(sql, (error) => {
