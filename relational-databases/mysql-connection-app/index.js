@@ -1,13 +1,5 @@
 const mysql = require('mysql');
 
-const databaseConnection = mysql.createConnection({
-    host: 'localhost',
-    port: 3306,
-    user: 'root',
-    password: 'LiaoSha831106',
-    database: 'store'
-});
-
 let newUsers = [
     { name: 'Gerald', email: 'gerald@yahoo.com', username: 'Gerald1932', password: 'secret9343' },
     { name: 'Henrietta', email: 'frank@yahoo.com', username: 'MsHenri', password: 'secret82top' },

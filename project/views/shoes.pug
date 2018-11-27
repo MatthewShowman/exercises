@@ -1,0 +1,9 @@
+html
+    head
+        title Shoes
+    body
+        h1 Shoe Models
+        ul
+            each shoe in shoes
+                li
+                    a(href='/' + shoe.model)= shoe.model
