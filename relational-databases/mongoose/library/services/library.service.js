@@ -1,9 +1,8 @@
 const Author = require('../models/author.model'); // capital "A" so that is can be treated as a class
 const Book = require('../models/book.model'); // capital "B" so that is can be treated as a class
 
-function fetchAllBooks() {
-    return Book.find({}).populate('author');
-}
+
+// AUTHOR FUNCTIONS
 
 function fetchAllAuthors() {
     return Author.find({}).populate('book');
@@ -17,10 +16,40 @@ function fetchAuthorsByLastname(lastName) {
     return Author.find({lastName: lastName}).populate('book');
 }
 
-function addNewAuthor(authorObject) {
-    let newAuthor = new Author(req.body);
+function addNewAuthor(authorJSON) {
+    let newAuthor = new Author(authorJSON);
     let addedAuthor = newAuthor.save();
     return addedAuthor;
+}
+
+// BOOK FUNCTIONS
+
+function fetchAllBooks() {
+    return Book.find({}).populate('author');
+}
+
+function fetchBookByTitle(title) {
+    return Book.find({title: title}).populate('author');
+}
+
+function addNewBook(bookJSON) {
+    let newBook = new Book(bookJSON);
+    let addedBook = newBook.save();
+    return addedBook;
+}
+
+function updateBook(infoToReplace, title) {
+    let updatedBook = fetchBookByTitle(title)
+
+    if (infoToReplace.params.title) {
+        updateBook.title = infoToReplace.title;
+    } else if (infoToReplace.params.author) {
+        updateBook.author = infoToReplace.author;
+    } else {
+        return null;
+    }
+
+    return updatedBook;
 }
 
 module.exports = {
@@ -28,5 +57,8 @@ module.exports = {
     fetchAllAuthors,
     fetchAuthorsByFirstname,
     fetchAuthorsByLastname,
-    addNewAuthor
+    addNewAuthor,
+    fetchBookByTitle,
+    addNewBook,
+    updateBook
 }

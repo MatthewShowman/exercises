@@ -35,8 +35,62 @@ router.get('/authors', async (req, res) => {
 
 router.post('/authors', async (req, res) => {
     try {
-        let addedAuthor = await libraryServices.addNewAuthor(req.body);
-        res.status(200).json(addedAuthor);
+        let newAuthor = await libraryServices.addNewAuthor(req.body);
+        res.status(200).json(newAuthor);
+    }
+    catch (error) {
+        console.log(error);
+        res.status(500).send('Internal service error');
+    }
+});
+
+// BOOK ROUTES
+
+//  search for a book by title
+
+router.get('/books', async (req, res) => {
+    let books;
+
+    try {
+        if (req.query.title) {
+            books = await libraryServices.fetchBookByTitle(req.query.title);
+        } else {
+            books = await libraryServices.fetchAllBooks();
+        }
+        
+        res.status(200).json(books);
+    }
+    catch (error) {
+        console.log(error);
+        res.status(500).send('Internal service error');
+    }
+});
+
+// Add a new book to the library
+
+router.post ('/books', async (req, res) => {
+    try {
+        let newBook = await libraryServices.addNewBook(req.body);
+        res.status(200).json(newBook);
+    }
+    catch (error) {
+        console.log(error);
+        res.status(500).send('Internal service error');
+    }
+});
+
+// Update a book
+router.put('/books', async (req, res) => {
+    let updatedBook;
+    
+    try {
+        if (req.query.title) {
+            updatedBook = await libraryServices.updateBook(req.body, req.query.title)
+        } else {
+            res.status(400).send('Invalid query');
+        }
+
+        res.status(200).json(updatedBook);
     }
     catch (error) {
         console.log(error);

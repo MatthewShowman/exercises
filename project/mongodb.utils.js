@@ -15,7 +15,7 @@ function createEventListeners() {
 }
 
 function connect() {
-    mongoose.connect('mongodb://localhost/backend-class', { useNewUrlParser: true });
+    mongoose.connect('mongodb://localhost/project', { useNewUrlParser: true });
 }
 
 function disconnect() {
