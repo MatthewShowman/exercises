@@ -38,18 +38,20 @@ function addNewBook(bookJSON) {
     return addedBook;
 }
 
-function updateBook(infoToReplace, title) {
-    let updatedBook = fetchBookByTitle(title)
+function updateBookTitle(titleJSON, id) {
+    let bookToUpdate = Book.find({_id: id});
+    bookToUpdate.title = titleJSON.title;
 
-    if (infoToReplace.params.title) {
-        updateBook.title = infoToReplace.title;
-    } else if (infoToReplace.params.author) {
-        updateBook.author = infoToReplace.author;
-    } else {
-        return null;
-    }
 
-    return updatedBook;
+    // if (infoToReplace.params.title) {
+    //     updateBook.title = infoToReplace.title;
+    // } else if (infoToReplace.params.author) {
+    //     updateBook.author = infoToReplace.author;
+    // } else {
+    //     return null;
+    // }
+
+    return bookToUpdate;
 }
 
 module.exports = {
@@ -59,6 +61,6 @@ module.exports = {
     fetchAuthorsByLastname,
     addNewAuthor,
     fetchBookByTitle,
-    addNewBook,
-    updateBook
+    addNewBook
+    // updateBookTitle
 }

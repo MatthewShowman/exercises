@@ -22,7 +22,7 @@ router.get('/authors', async (req, res) => {
         } else {
             authors = await libraryServices.fetchAllAuthors();
         }
-        
+
         res.status(200).json(authors);
     }
     catch (error) {
@@ -57,7 +57,7 @@ router.get('/books', async (req, res) => {
         } else {
             books = await libraryServices.fetchAllBooks();
         }
-        
+
         res.status(200).json(books);
     }
     catch (error) {
@@ -68,7 +68,7 @@ router.get('/books', async (req, res) => {
 
 // Add a new book to the library
 
-router.post ('/books', async (req, res) => {
+router.post('/books', async (req, res) => {
     try {
         let newBook = await libraryServices.addNewBook(req.body);
         res.status(200).json(newBook);
@@ -80,21 +80,15 @@ router.post ('/books', async (req, res) => {
 });
 
 // Update a book
-router.put('/books', async (req, res) => {
-    let updatedBook;
-    
-    try {
-        if (req.query.title) {
-            updatedBook = await libraryServices.updateBook(req.body, req.query.title)
-        } else {
-            res.status(400).send('Invalid query');
-        }
 
-        res.status(200).json(updatedBook);
+router.patch('/books/:id', async (req, res) => {
+    try {
+            let updatedBook = await Book.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true });
+            res.status(200).json(updatedBook);
     }
     catch (error) {
         console.log(error);
-        res.status(500).send('Internal service error');
+        res.status(500).send("Internal service error");
     }
 });
 
@@ -150,7 +144,7 @@ router.put('/books', async (req, res) => {
 
 // router.patch('/', async (req, res) => {
 //     try {
-        
+
 //     }
 //     catch {
 //         console.log(error);
