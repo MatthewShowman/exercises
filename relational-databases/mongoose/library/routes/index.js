@@ -20,7 +20,7 @@ router.get('/authors', async (req, res) => {
         } else if (req.query.lastName) {
             authors = await libraryServices.fetchAuthorsByLastname(req.query.lastName);
         } else if (req.query.lastName && req.query.firstName) {
-            authors = await libraryServices.fetchAuthorByName(req.query.firstName, req.query.lastName);
+            authors = await libraryServices.fetchAuthorsByFullName(req.query.firstName, req.query.lastName);
         } else {
             authors = await libraryServices.fetchAllAuthors();
         }
@@ -72,13 +72,14 @@ router.get('/books', async (req, res) => {
 
 router.post('/books', async (req, res) => {
     let newBook = req.body;
+    let {title, author: {firstName, lastName}} = req.body;
     let authorId;
     let bookToSave;
     
     // Set the author's ID code
     try {
-        if (await libraryServices.fetchAuthorByFullName(req.body.author.firstName, req.body.author.lastName)) {
-            let existingAuthor = await libraryServices.fetchAuthorByFullName(req.body.author.firstName, req.body.author.lastName);
+        if (await libraryServices.fetchAuthorsByFullName(firstName, lastName)) {
+            let existingAuthor = await libraryServices.fetchAuthorsByFullName(firstName, lastName);
             authorId = existingAuthor[0]._id;
         } else {
             let newAuthor = await libraryServices.addNewAuthor(req.body.author);
@@ -88,7 +89,7 @@ router.post('/books', async (req, res) => {
         // Assign the 
         newBook.author = authorId;
         bookToSave = await libraryServices.addNewBook(newBook);
-        let returnThisBook = await libraryServices.fetchBookByTitle(bookToSave.title);
+        let returnThisBook = await libraryServices.fetchBookByTitle(title);
         res.status(200).json(returnThisBook);
     }
     catch (error) {

@@ -16,7 +16,7 @@ function fetchAuthorsByLastname(lastname) {
     return Author.find({lastName: lastname}).populate('books');
 }
 
-function fetchAuthorByFullName(firstname, lastname) {
+function fetchAuthorsByFullName(firstname, lastname) {
     return Author.find({firstName: firstname, lastName: lastname}).populate('books');
 }
 
@@ -63,7 +63,7 @@ module.exports = {
     fetchAllAuthors,
     fetchAuthorsByFirstname,
     fetchAuthorsByLastname,
-    fetchAuthorByFullName,
+    fetchAuthorsByFullName,
     addNewAuthor,
     fetchBookByTitle,
     addNewBook
