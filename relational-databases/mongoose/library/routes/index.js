@@ -76,19 +76,19 @@ router.post('/books', async (req, res) => {
     let authorId;
     let bookToSave;
     
-    // Set the author's ID code
     try {
+        // Set the author's ID code
         if (await libraryServices.fetchAuthorsByFullName(firstName, lastName)) {
             let existingAuthor = await libraryServices.fetchAuthorsByFullName(firstName, lastName);
             authorId = existingAuthor[0]._id;
         } else {
-            let newAuthor = await libraryServices.addNewAuthor(req.body.author);
+            let newAuthor = await libraryServices.createNewAuthor(firstName, lastName, title);
             authorId = newAuthor._id
         }
 
         // Assign the 
         newBook.author = authorId;
-        bookToSave = await libraryServices.addNewBook(newBook);
+        bookToSave = await libraryServices.createNewBook(title, firstName, lastName);
         let returnThisBook = await libraryServices.fetchBookByTitle(title);
         res.status(200).json(returnThisBook);
     }

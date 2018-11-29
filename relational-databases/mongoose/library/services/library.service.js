@@ -20,8 +20,14 @@ function fetchAuthorsByFullName(firstname, lastname) {
     return Author.find({firstName: firstname, lastName: lastname}).populate('books');
 }
 
-function addNewAuthor(authorJSON) {
-    let newAuthor = new Author(authorJSON);
+function createNewAuthor(firstName, lastName, books) {
+    let newAuthor = new Author(
+        {
+            firstName: firstName,
+            lastName: lastName,
+            books: [books],
+        }
+    );
     let addedAuthor = newAuthor.save();
     return addedAuthor;
 }
@@ -36,36 +42,41 @@ function fetchBookByTitle(title) {
     return Book.find({title: title}).populate('author');
 }
 
-function addNewBook(bookJSON) {
-    let newBook = new Book(bookJSON);
+function createNewBook(title, firstName, lastName) {
+    let newBook = new Book(
+        {
+            title: title,
+            author: {
+                firstName: firstName,
+                lastName: lastName,
+            }
+        }
+    );
     let addedBook = newBook.save();
     return addedBook;
 }
 
-function updateBookTitle(titleJSON, id) {
-    let bookToUpdate = Book.find({_id: id});
-    bookToUpdate.title = titleJSON.title;
-
-
-    // if (infoToReplace.params.title) {
-    //     updateBook.title = infoToReplace.title;
-    // } else if (infoToReplace.params.author) {
-    //     updateBook.author = infoToReplace.author;
-    // } else {
-    //     return null;
-    // }
-
+function updateBookById(data, id) {
+    let bookToUpdate = Book.findById(id);
+    if (infoToReplace.params.title) {
+        updateBook.title = infoToReplace.title;
+    } else if (infoToReplace.params.author) {
+        updateBook.author = infoToReplace.author;
+    } else {
+        return null;
+    }
+    bookToUpdate.title = data.title;
     return bookToUpdate;
 }
 
 module.exports = {
-    fetchAllBooks,
     fetchAllAuthors,
     fetchAuthorsByFirstname,
     fetchAuthorsByLastname,
     fetchAuthorsByFullName,
-    addNewAuthor,
+    createNewAuthor,
+    fetchAllBooks,
     fetchBookByTitle,
-    addNewBook
+    createNewBook
     // updateBookTitle
 }
