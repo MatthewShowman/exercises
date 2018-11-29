@@ -5,15 +5,19 @@ const Book = require('../models/book.model'); // capital "B" so that is can be t
 // AUTHOR FUNCTIONS
 
 function fetchAllAuthors() {
-    return Author.find({}).populate('book');
+    return Author.find({}).populate('books');
 }
 
-function fetchAuthorsByFirstname(firstName) {
-    return Author.find({firstName: firstName}).populate('book');
+function fetchAuthorsByFirstname(firstname) {
+    return Author.find({firstName: firstname}).populate('books');
 }
 
-function fetchAuthorsByLastname(lastName) {
-    return Author.find({lastName: lastName}).populate('book');
+function fetchAuthorsByLastname(lastname) {
+    return Author.find({lastName: lastname}).populate('books');
+}
+
+function fetchAuthorByFullName(firstname, lastname) {
+    return Author.find({firstName: firstname, lastName: lastname}).populate('books');
 }
 
 function addNewAuthor(authorJSON) {
@@ -59,6 +63,7 @@ module.exports = {
     fetchAllAuthors,
     fetchAuthorsByFirstname,
     fetchAuthorsByLastname,
+    fetchAuthorByFullName,
     addNewAuthor,
     fetchBookByTitle,
     addNewBook
