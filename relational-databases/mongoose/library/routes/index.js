@@ -21,6 +21,8 @@ router.get('/authors', async (req, res) => {
             authors = await libraryServices.fetchAuthorsByLastname(req.query.lastName);
         } else if (req.query.lastName && req.query.firstName) {
             authors = await libraryServices.fetchAuthorsByFullName(req.query.firstName, req.query.lastName);
+        } else if (req.query.id) {
+            authors = await libraryServices.fetchAuthorsById(req.query.id);
         } else {
             authors = await libraryServices.fetchAllAuthors();
         }
@@ -39,6 +41,18 @@ router.post('/authors', async (req, res) => {
     try {
         let newAuthor = await libraryServices.addNewAuthor(req.body);
         res.status(200).json(newAuthor);
+    }
+    catch (error) {
+        console.log(error);
+        res.status(500).send('Internal service error');
+    }
+});
+
+router.patch('/authors/:id', async (req, res) => {
+    try {
+        await libraryServices.updateAuthorById(req.body,req.params.id);
+        let updatedAuthor = await libraryServices.fetchAuthorsById(req.params.id);
+        res.status(200).json(updatedAuthor);
     }
     catch (error) {
         console.log(error);

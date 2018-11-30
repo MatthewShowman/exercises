@@ -20,6 +20,10 @@ function fetchAuthorsByFullName(firstname, lastname) {
     return Author.find({firstName: firstname, lastName: lastname}).populate('books');
 }
 
+function fetchAuthorsById(id) {
+    return Author.find({_id: id}).populate('books');
+}
+
 function createNewAuthor(firstName, lastName, books) {
     let newAuthor = new Author(
         {
@@ -30,6 +34,10 @@ function createNewAuthor(firstName, lastName, books) {
     );
     let addedAuthor = newAuthor.save();
     return addedAuthor;
+}
+
+function updateAuthorById(id, updateJSON) {
+    return Author.findByIdAndUpdate(id, updateJSON, { new: true });
 }
 
 // BOOK FUNCTIONS
@@ -56,17 +64,15 @@ function createNewBook(title, firstName, lastName) {
     return addedBook;
 }
 
-function updateBookById(data, id) {
-    let bookToUpdate = Book.findById(id);
-    if (infoToReplace.params.title) {
-        updateBook.title = infoToReplace.title;
-    } else if (infoToReplace.params.author) {
-        updateBook.author = infoToReplace.author;
-    } else {
-        return null;
-    }
-    bookToUpdate.title = data.title;
-    return bookToUpdate;
+function updateBookById(updateJSON, id) {
+    return Book.findByIdAndUpdate(id, updateJSON, { new: true });
+    // if (infoToReplace.params.title) {
+    //     updateBook.title = infoToReplace.title;
+    // } else if (infoToReplace.params.author) {
+    //     updateBook.author = infoToReplace.author;
+    // } else {
+    //     return null;
+    // bookToUpdate.title = data.title;
 }
 
 module.exports = {
@@ -74,9 +80,12 @@ module.exports = {
     fetchAuthorsByFirstname,
     fetchAuthorsByLastname,
     fetchAuthorsByFullName,
+    fetchAuthorsById,
     createNewAuthor,
+    updateAuthorById,
+
     fetchAllBooks,
     fetchBookByTitle,
-    createNewBook
-    // updateBookTitle
+    createNewBook,
+    updateBookById
 }
