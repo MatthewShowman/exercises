@@ -37,7 +37,9 @@ function createNewAuthor(firstName, lastName, books) {
 }
 
 function updateAuthorById(id, updateJSON) {
-    return Author.findByIdAndUpdate(id, updateJSON, { new: true });
+    let authorToUpdate = Author.findByIdAndUpdate(id, updateJSON, { new: true });
+    let updatedAuthor = authorToUpdate.save();
+    return updatedAuthor;
 }
 
 // BOOK FUNCTIONS
@@ -65,7 +67,9 @@ function createNewBook(title, firstName, lastName) {
 }
 
 function updateBookById(updateJSON, id) {
-    return Book.findByIdAndUpdate(id, updateJSON, { new: true });
+    let bookToUpdate = Book.findByIdAndUpdate(id, updateJSON, { new: true });
+    let updatedBook = bookToUpdate.save();
+    return updatedBook;
     // if (infoToReplace.params.title) {
     //     updateBook.title = infoToReplace.title;
     // } else if (infoToReplace.params.author) {

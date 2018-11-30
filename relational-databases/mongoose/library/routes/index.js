@@ -50,13 +50,12 @@ router.post('/authors', async (req, res) => {
 
 router.patch('/authors/:id', async (req, res) => {
     try {
-        await libraryServices.updateAuthorById(req.body,req.params.id);
-        let updatedAuthor = await libraryServices.fetchAuthorsById(req.params.id);
-        res.status(200).json(updatedAuthor);
+            let updatedAuthor = await Author.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true });
+            res.status(200).json(updatedAuthor);
     }
     catch (error) {
         console.log(error);
-        res.status(500).send('Internal service error');
+        res.status(500).send("Internal service error");
     }
 });
 
@@ -85,6 +84,15 @@ router.get('/books', async (req, res) => {
 // Add a new book to the library
 
 router.post('/books', async (req, res) => {
+    // 1. check for author
+    // 2. create a new author if needed
+    // 3. get author id
+    // 4. create a new book
+    // 5. insert the author id into the book obj
+	// 6. get the book id
+    // 6. insert the book id into the author obj
+    // 7. res out the book with populated author
+    
     let newBook = req.body;
     let {title, author: {firstName, lastName}} = req.body;
     let authorId;
@@ -124,65 +132,5 @@ router.patch('/books/:id', async (req, res) => {
         res.status(500).send("Internal service error");
     }
 });
-
-// router.get('/', async (req, res) => {
-//     try {
-
-//     }
-//     catch {
-//         console.log(error);
-//         res.status(500).send('Internal service error');
-//     }
-// });
-
-// router.get('/', async (req, res) => {
-//     try {
-
-//     }
-//     catch {
-//         console.log(error);
-//         res.status(500).send('Internal service error');
-//     }
-// });
-
-// router.post('/', async (req, res) => {
-//     try {
-
-//     }
-//     catch {
-//         console.log(error);
-//         res.status(500).send('Internal service error');
-//     }
-// });
-
-// router.delete('/', async (req, res) => {
-//     try {
-
-//     }
-//     catch {
-//         console.log(error);
-//         res.status(500).send('Internal service error');
-//     }
-// });
-
-// router.put('/', async (req, res) => {
-//     try {
-
-//     }
-//     catch {
-//         console.log(error);
-//         res.status(500).send('Internal service error');
-//     }
-// });
-
-// router.patch('/', async (req, res) => {
-//     try {
-
-//     }
-//     catch {
-//         console.log(error);
-//         res.status(500).send('Internal service error');
-//     }
-// });
 
 module.exports = router;
