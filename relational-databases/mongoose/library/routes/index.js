@@ -113,7 +113,7 @@ router.post('/books', async (req, res) => {
         // 4. create a new book
         // 5. insert the author id into the book obj
         let createThisBook = await libraryServices.createNewBook(title, authorId);
-        newBook = createThisBook.save();
+        newBook = await createThisBook.save();
         
         // 6. get the book id
         bookId = newBook._id;
