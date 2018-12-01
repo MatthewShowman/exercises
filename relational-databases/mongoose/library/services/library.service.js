@@ -24,22 +24,30 @@ function fetchAuthorsById(id) {
     return Author.find({_id: id}).populate('books');
 }
 
-function createNewAuthor(firstName, lastName, books) {
+function createNewAuthor(firstName, lastName, bookId) {
     let newAuthor = new Author(
         {
             firstName: firstName,
             lastName: lastName,
-            books: [books],
+            books: [bookId],
         }
     );
-    let addedAuthor = newAuthor.save();
-    return addedAuthor;
+    // let addedAuthor = newAuthor.save();
+    // return addedAuthor;
+    return newAuthor;
 }
 
-function updateAuthorById(id, updateJSON) {
-    let authorToUpdate = Author.findByIdAndUpdate(id, updateJSON, { new: true });
-    let updatedAuthor = authorToUpdate.save();
-    return updatedAuthor;
+function updateAuthorNameById(id, nameJSON) {
+    let authorToUpdate = Author.findByIdAndUpdate(id, nameJSON, { new: true });
+    return authorToUpdate;
+}
+
+function addBooksToAuthorById(id, titleId) {
+    let authorToUpdate = Author.find({_id: id});
+    let booksArray = authorToUpdate.books;
+    let newBooksArray = booksArray.push(titleId);
+    let updatedAuthorProfile = Author.findByIdAndUpdate(id, {books: newBooksArray}, { new: true });
+    return updatedAuthorProfile;
 }
 
 // BOOK FUNCTIONS
@@ -52,31 +60,21 @@ function fetchBookByTitle(title) {
     return Book.find({title: title}).populate('author');
 }
 
-function createNewBook(title, firstName, lastName) {
+function createNewBook(title, AuthorId) {
     let newBook = new Book(
         {
             title: title,
-            author: {
-                firstName: firstName,
-                lastName: lastName,
-            }
+            author: AuthorId
         }
     );
-    let addedBook = newBook.save();
-    return addedBook;
+    // let addedBook = newBook.save();
+    // return addedBook;
+    return newBook;
 }
 
 function updateBookById(updateJSON, id) {
     let bookToUpdate = Book.findByIdAndUpdate(id, updateJSON, { new: true });
-    let updatedBook = bookToUpdate.save();
-    return updatedBook;
-    // if (infoToReplace.params.title) {
-    //     updateBook.title = infoToReplace.title;
-    // } else if (infoToReplace.params.author) {
-    //     updateBook.author = infoToReplace.author;
-    // } else {
-    //     return null;
-    // bookToUpdate.title = data.title;
+    return bookToUpdate;
 }
 
 module.exports = {
@@ -86,7 +84,8 @@ module.exports = {
     fetchAuthorsByFullName,
     fetchAuthorsById,
     createNewAuthor,
-    updateAuthorById,
+    updateAuthorNameById,
+    addBooksToAuthorById,
 
     fetchAllBooks,
     fetchBookByTitle,

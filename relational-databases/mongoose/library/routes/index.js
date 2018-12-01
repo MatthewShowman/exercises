@@ -49,9 +49,17 @@ router.post('/authors', async (req, res) => {
 });
 
 router.patch('/authors/:id', async (req, res) => {
-    try {
-            let updatedAuthor = await Author.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true });
-            res.status(200).json(updatedAuthor);
+    let updatedAuthor;
+
+     try {
+        if (req.body.firstName || req.body.lastName) {
+            updatedAuthor = await libraryServices.updateAuthorNameById(req.params.id, req.body);
+        } else {
+            res.status(500).send('Invalid update parameters');
+        }
+        
+        let savedAuthor = await updatedAuthor.save();
+        res.status(200).json(savedAuthor);
     }
     catch (error) {
         console.log(error);
@@ -84,35 +92,38 @@ router.get('/books', async (req, res) => {
 // Add a new book to the library
 
 router.post('/books', async (req, res) => {
-    // 1. check for author
-    // 2. create a new author if needed
-    // 3. get author id
-    // 4. create a new book
-    // 5. insert the author id into the book obj
-	// 6. get the book id
-    // 6. insert the book id into the author obj
-    // 7. res out the book with populated author
-    
-    let newBook = req.body;
+    let newBook;
     let {title, author: {firstName, lastName}} = req.body;
     let authorId;
-    let bookToSave;
+    let bookId;
     
     try {
-        // Set the author's ID code
+        // 1. check for author
+        // 2. create a new author if needed
+        // 3. get author id
         if (await libraryServices.fetchAuthorsByFullName(firstName, lastName)) {
             let existingAuthor = await libraryServices.fetchAuthorsByFullName(firstName, lastName);
             authorId = existingAuthor[0]._id;
         } else {
-            let newAuthor = await libraryServices.createNewAuthor(firstName, lastName, title);
-            authorId = newAuthor._id
+            let createThisAuthor = await libraryServices.createNewAuthor(firstName, lastName);
+            let newAuthor = await createThisAuthor.save();
+            authorId = newAuthor[0]._id
         }
 
-        // Assign the 
-        newBook.author = authorId;
-        bookToSave = await libraryServices.createNewBook(title, firstName, lastName);
-        let returnThisBook = await libraryServices.fetchBookByTitle(title);
-        res.status(200).json(returnThisBook);
+        // 4. create a new book
+        // 5. insert the author id into the book obj
+        let createThisBook = await libraryServices.createNewBook(title, authorId);
+        newBook = createThisBook.save();
+        
+        // 6. get the book id
+        bookId = newBook._id;
+        
+        // 7. insert the book id into the author obj
+        let updateTheAuthor = await libraryServices.addBooksToAuthorById(authorId, bookId);
+        await updateTheAuthor.save(); 
+
+        // 8. res out the book with populated author
+        res.status(200).json(newBook);
     }
     catch (error) {
         console.log(error);
@@ -125,7 +136,8 @@ router.post('/books', async (req, res) => {
 router.patch('/books/:id', async (req, res) => {
     try {
             let updatedBook = await Book.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true });
-            res.status(200).json(updatedBook);
+            let savedBook = await updatedBook.save();
+            res.status(200).json(savedBook);
     }
     catch (error) {
         console.log(error);
