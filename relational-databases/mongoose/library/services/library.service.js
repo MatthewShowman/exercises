@@ -5,23 +5,23 @@ const Book = require('../models/book.model'); // capital "B" so that is can be t
 // AUTHOR FUNCTIONS
 
 function fetchAllAuthors() {
-    return Author.find({}).populate('books');
+    return Author.find({}, '_id firstName lastName').populate('books', '_id title');
 }
 
 function fetchAuthorsByFirstname(firstname) {
-    return Author.find({firstName: firstname}).populate('books');
+    return Author.find({firstName: firstname}, '_id firstName lastName').populate('books', '_id title');
 }
 
 function fetchAuthorsByLastname(lastname) {
-    return Author.find({lastName: lastname}).populate('books');
+    return Author.find({lastName: lastname}, '_id firstName lastName').populate('books', '_id title');
 }
 
 function fetchAuthorsByFullName(firstname, lastname) {
-    return Author.find({firstName: firstname, lastName: lastname}).populate('books');
+    return Author.findOne({firstName: firstname, lastName: lastname}, '_id firstName lastName').populate('books', '_id title');
 }
 
 function fetchAuthorsById(id) {
-    return Author.find({_id: id}).populate('books');
+    return Author.findOne({_id: id}, '_id firstName lastName').populate('books','_id title');
 }
 
 function createNewAuthor(firstName, lastName, bookId) {
@@ -29,7 +29,7 @@ function createNewAuthor(firstName, lastName, bookId) {
         {
             firstName: firstName,
             lastName: lastName,
-            books: [bookId],
+            books: [],
         }
     );
     // let addedAuthor = newAuthor.save();
@@ -42,22 +42,27 @@ function updateAuthorNameById(id, nameJSON) {
     return authorToUpdate;
 }
 
-function addBooksToAuthorById(id, titleId) {
-    let authorToUpdate = Author.find({_id: id});
-    let booksArray = authorToUpdate.books;
+function addBooksToAuthor(authorInfo, titleId) {
+    let authorToUpdate = Author.findOne({_id: id});
+    authorToUpdate
     let newBooksArray = booksArray.push(titleId);
     let updatedAuthorProfile = Author.findByIdAndUpdate(id, {books: newBooksArray}, { new: true });
+    let updatedAuthorProfile = authorInfo.books.push(titleId);
     return updatedAuthorProfile;
 }
 
 // BOOK FUNCTIONS
 
 function fetchAllBooks() {
-    return Book.find({}).populate('author');
+    return Book.find({}).populate('author', '_id firstName lastName');
 }
 
 function fetchBookByTitle(title) {
-    return Book.find({title: title}).populate('author');
+    return Book.findOne({title: title}).populate('author', '_id firstName lastName');
+}
+
+function fetchBookById(id) {
+    return Book.findOne({_id: id}).populate('author', '_id firstName lastName');
 }
 
 function createNewBook(title, AuthorId) {
@@ -85,10 +90,11 @@ module.exports = {
     fetchAuthorsById,
     createNewAuthor,
     updateAuthorNameById,
-    addBooksToAuthorById,
+    addBooksToAuthor,
 
     fetchAllBooks,
     fetchBookByTitle,
+    fetchBookById,
     createNewBook,
     updateBookById
 }

@@ -15,14 +15,14 @@ router.get('/authors', async (req, res) => {
     let authors;
 
     try {
-        if (req.query.firstName) {
-            authors = await libraryServices.fetchAuthorsByFirstname(req.query.firstName);
-        } else if (req.query.lastName) {
-            authors = await libraryServices.fetchAuthorsByLastname(req.query.lastName);
-        } else if (req.query.lastName && req.query.firstName) {
+        if (req.query.lastName && req.query.firstName) {
             authors = await libraryServices.fetchAuthorsByFullName(req.query.firstName, req.query.lastName);
         } else if (req.query.id) {
             authors = await libraryServices.fetchAuthorsById(req.query.id);
+        } else if (req.query.firstName) {
+            authors = await libraryServices.fetchAuthorsByFirstname(req.query.firstName);
+        } else if (req.query.lastName) {
+            authors = await libraryServices.fetchAuthorsByLastname(req.query.lastName);
         } else {
             authors = await libraryServices.fetchAllAuthors();
         }
@@ -38,9 +38,39 @@ router.get('/authors', async (req, res) => {
 // Add a new author to the library
 
 router.post('/authors', async (req, res) => {
+    let newBook;
+    let {title, author: {firstName, lastName}} = req.body;
+    let author;
+    let authorId;
+    let bookId;
+    
     try {
-        let newAuthor = await libraryServices.addNewAuthor(req.body);
-        res.status(200).json(newAuthor);
+        // 1. check for author
+        // 2. create a new author if needed
+        // 3. get author id
+        if (await libraryServices.fetchAuthorsByFullName(firstName, lastName)) {
+            author = await libraryServices.fetchAuthorsByFullName(firstName, lastName);
+        } else {
+            let createThisAuthor = await libraryServices.createNewAuthor(firstName, lastName);
+            author = await createThisAuthor.save();
+        }
+
+        authorId = author._id;
+
+        // 4. create a new book
+        // 5. insert the author id into the book obj
+        let createThisBook = await libraryServices.createNewBook(title, authorId);
+        newBook = await createThisBook.save();
+        
+        // 6. get the book id
+        bookId = newBook._id;
+        
+        // 7. insert the book id into the author obj
+        author.books.push(bookId);
+        await author.save(); 
+        
+        // 8. res out the book with populated author
+        res.status(200).json(await libraryServices.fetchBookById(bookId));
     }
     catch (error) {
         console.log(error);
@@ -77,6 +107,8 @@ router.get('/books', async (req, res) => {
     try {
         if (req.query.title) {
             books = await libraryServices.fetchBookByTitle(req.query.title);
+        } else if (req.query.id) {
+            books = await libraryServices.fetchBookById(req.query.id);
         } else {
             books = await libraryServices.fetchAllBooks();
         }
@@ -94,6 +126,7 @@ router.get('/books', async (req, res) => {
 router.post('/books', async (req, res) => {
     let newBook;
     let {title, author: {firstName, lastName}} = req.body;
+    let author;
     let authorId;
     let bookId;
     
@@ -102,13 +135,13 @@ router.post('/books', async (req, res) => {
         // 2. create a new author if needed
         // 3. get author id
         if (await libraryServices.fetchAuthorsByFullName(firstName, lastName)) {
-            let existingAuthor = await libraryServices.fetchAuthorsByFullName(firstName, lastName);
-            authorId = existingAuthor[0]._id;
+            author = await libraryServices.fetchAuthorsByFullName(firstName, lastName);
         } else {
             let createThisAuthor = await libraryServices.createNewAuthor(firstName, lastName);
-            let newAuthor = await createThisAuthor.save();
-            authorId = newAuthor[0]._id
+            author = await createThisAuthor.save();
         }
+
+        authorId = author._id;
 
         // 4. create a new book
         // 5. insert the author id into the book obj
@@ -119,11 +152,11 @@ router.post('/books', async (req, res) => {
         bookId = newBook._id;
         
         // 7. insert the book id into the author obj
-        let updateTheAuthor = await libraryServices.addBooksToAuthorById(authorId, bookId);
-        await updateTheAuthor.save(); 
-
+        author.books.push(bookId);
+        await author.save(); 
+        
         // 8. res out the book with populated author
-        res.status(200).json(newBook);
+        res.status(200).json(await libraryServices.fetchBookById(bookId));
     }
     catch (error) {
         console.log(error);
