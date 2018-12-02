@@ -38,8 +38,7 @@ function createNewAuthor(firstName, lastName, bookId) {
 }
 
 function updateAuthorNameById(id, nameJSON) {
-    let authorToUpdate = Author.findByIdAndUpdate(id, nameJSON, { new: true });
-    return authorToUpdate;
+    return Author.findByIdAndUpdate(id, nameJSON, { new: true }).populate('books','_id title');;
 }
 
 function addBooksToAuthor(authorInfo, titleId) {
@@ -62,7 +61,7 @@ function fetchBookByTitle(title) {
 }
 
 function fetchBookById(id) {
-    return Book.findOne({_id: id}).populate('author', '_id firstName lastName');
+    return Book.findOne({_id: id}, '_id title').populate('author', '_id firstName lastName');
 }
 
 function createNewBook(title, AuthorId) {

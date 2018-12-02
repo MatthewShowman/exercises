@@ -38,39 +38,39 @@ router.get('/authors', async (req, res) => {
 // Add a new author to the library
 
 router.post('/authors', async (req, res) => {
-    let newBook;
-    let {title, author: {firstName, lastName}} = req.body;
-    let author;
+    let newAuthor;
+    let {firstName, lastName, title} = req.body;
+    let book;
     let authorId;
     let bookId;
     
     try {
-        // 1. check for author
-        // 2. create a new author if needed
-        // 3. get author id
-        if (await libraryServices.fetchAuthorsByFullName(firstName, lastName)) {
-            author = await libraryServices.fetchAuthorsByFullName(firstName, lastName);
+        // 1. check for book
+        // 2. create a new book if needed
+        // 3. get book id
+        if (await libraryServices.fetchBookByTitle(title)) {
+            book = await libraryServices.fetchBookByTitle(title);
         } else {
-            let createThisAuthor = await libraryServices.createNewAuthor(firstName, lastName);
-            author = await createThisAuthor.save();
+            let createThisBook = await libraryServices.createNewBook(title);
+            book = await createThisBook.save();
         }
 
-        authorId = author._id;
+        bookId = book._id;
 
-        // 4. create a new book
-        // 5. insert the author id into the book obj
-        let createThisBook = await libraryServices.createNewBook(title, authorId);
-        newBook = await createThisBook.save();
+        // 4. create a new author
+        // 5. insert the book id into the author obj
+        let createThisAuthor = await libraryServices.createNewAuthor(firstName, lastName, bookId);
+        newAuthor = await createThisAuthor.save();
         
-        // 6. get the book id
-        bookId = newBook._id;
+        // 6. get the author id
+        authorId = newAuthor._id;
         
-        // 7. insert the book id into the author obj
-        author.books.push(bookId);
-        await author.save(); 
+        // 7. insert the author id into the book obj
+        book.author.push(authorId);
+        await book.save(); 
         
         // 8. res out the book with populated author
-        res.status(200).json(await libraryServices.fetchBookById(bookId));
+        res.status(200).json(await libraryServices.fetchAuthorsById(authorId));
     }
     catch (error) {
         console.log(error);
