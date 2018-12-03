@@ -24,15 +24,17 @@ app.use('/', router);
 mongodb.createEventListeners();
 mongodb.connect();
 
-let shoes;
+// let shoes;
 
-axios.get('localhost:3000/shoes')
-    .then(response => {
-        shoes = response.data;
-    })
+// axios.get('localhost:3000/shoes')
+//     .then(response => {
+//         shoes = response.data;
+//     }).catch(err => 
+//         console.error(err)
+//       )
 
-app.get('/',  (req, res) => {
-    res.render('shoes.pug', {shoes});
-});
+// app.get('/',  (req, res) => {
+//     res.render('shoes.pug', {shoes});
+// });
 
 app.listen('3000', () => console.log('listenin on port 3000'));

@@ -97,6 +97,19 @@ router.patch('/authors/:id', async (req, res) => {
     }
 });
 
+router.delete('/authors/:id', async (req, res) => {
+    try {
+        let deletedAuthor = await libraryServices.deleteAuthorById(req.params.id);
+        res.status(200).send(`deleted ${deletedAuthor}`);
+    }
+    catch (error) {
+        console.log(error);
+        res.status(500).send("Internal service error");
+    }
+});
+
+
+
 // BOOK ROUTES
 
 //  search for a book by title
@@ -171,6 +184,19 @@ router.patch('/books/:id', async (req, res) => {
             let updatedBook = await Book.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true });
             let savedBook = await updatedBook.save();
             res.status(200).json(savedBook);
+    }
+    catch (error) {
+        console.log(error);
+        res.status(500).send("Internal service error");
+    }
+});
+
+// Delete a book
+
+router.delete('/books/:id', async (req, res) => {
+    try {
+        let deletedBook = await libraryServices.deleteBookById(req.params.id);
+        res.status(200).send(`deleted ${deletedBook}`);
     }
     catch (error) {
         console.log(error);

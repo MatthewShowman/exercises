@@ -12,7 +12,7 @@
 	"cushion": 8,
 	"support": 7.5,
 	"pliability": 4,
-	""inventory"": 100
+	"inventor": 100
 
 },
 {
@@ -10800,4 +10800,4 @@
 	"pliability": 4,
 	"inventory": 100
 
-},
+}

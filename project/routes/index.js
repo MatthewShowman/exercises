@@ -3,7 +3,7 @@ const Shoe = require('../models/shoe.model');
 
 router.get('/shoes', async (req, res) => {
     try {
-        let shoes = await Shoe.find().sort({model: 1})
+        let shoes = await Shoe.find({}).sort({model: 1})
         res.status(200).json(shoes);
     }
     catch (error) {

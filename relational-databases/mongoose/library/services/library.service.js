@@ -50,10 +50,17 @@ function addBooksToAuthor(authorInfo, titleId) {
     return updatedAuthorProfile;
 }
 
+function deleteAuthorById(id) {
+    return Author.findOneAndDelete({_id: id});
+}
+
+
+
+
 // BOOK FUNCTIONS
 
 function fetchAllBooks() {
-    return Book.find({}).populate('author', '_id firstName lastName');
+    return Book.find({}, '_id title').populate('author', '_id firstName lastName');
 }
 
 function fetchBookByTitle(title) {
@@ -77,8 +84,11 @@ function createNewBook(title, AuthorId) {
 }
 
 function updateBookById(updateJSON, id) {
-    let bookToUpdate = Book.findByIdAndUpdate(id, updateJSON, { new: true });
-    return bookToUpdate;
+    return Book.findByIdAndUpdate(id, updateJSON, { new: true });
+}
+
+function deleteBookById(id) {
+    return Book.findOneAndDelete({_id: id});
 }
 
 module.exports = {
@@ -90,10 +100,12 @@ module.exports = {
     createNewAuthor,
     updateAuthorNameById,
     addBooksToAuthor,
+    deleteAuthorById,
 
     fetchAllBooks,
     fetchBookByTitle,
     fetchBookById,
     createNewBook,
-    updateBookById
+    updateBookById,
+    deleteBookById
 }
