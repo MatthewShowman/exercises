@@ -14,7 +14,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -31,7 +31,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -48,7 +48,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -65,7 +65,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -82,7 +82,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -99,7 +99,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -116,7 +116,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -133,7 +133,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -150,7 +150,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -167,7 +167,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -184,7 +184,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -201,7 +201,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -218,7 +218,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -234,7 +234,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -250,7 +250,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -266,7 +266,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -282,7 +282,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -298,7 +298,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -314,7 +314,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -330,7 +330,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -346,7 +346,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -362,7 +362,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -378,7 +378,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -394,7 +394,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -410,7 +410,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -426,7 +426,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -443,7 +443,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -460,7 +460,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -477,7 +477,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -494,7 +494,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -511,7 +511,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -528,7 +528,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -545,7 +545,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -562,7 +562,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -579,7 +579,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -596,7 +596,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -613,7 +613,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -630,7 +630,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -647,7 +647,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -664,7 +664,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -681,7 +681,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -698,7 +698,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -715,7 +715,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -732,7 +732,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -749,7 +749,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -766,7 +766,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -783,7 +783,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -800,7 +800,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -817,7 +817,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -834,7 +834,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -851,7 +851,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -868,7 +868,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -885,7 +885,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -902,7 +902,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -919,7 +919,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -936,7 +936,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -953,7 +953,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -970,7 +970,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -987,7 +987,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -1004,7 +1004,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -1021,7 +1021,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -1038,7 +1038,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -1055,7 +1055,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -1072,7 +1072,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -1089,7 +1089,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1106,7 +1106,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1123,7 +1123,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1140,7 +1140,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1157,7 +1157,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1174,7 +1174,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1191,7 +1191,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1208,7 +1208,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1225,7 +1225,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1242,7 +1242,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1259,7 +1259,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1276,7 +1276,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1293,7 +1293,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1310,7 +1310,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1327,7 +1327,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1344,7 +1344,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1361,7 +1361,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1378,7 +1378,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1395,7 +1395,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1412,7 +1412,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1429,7 +1429,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1446,7 +1446,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1463,7 +1463,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1480,7 +1480,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1497,7 +1497,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1514,7 +1514,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -1531,7 +1531,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1548,7 +1548,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1565,7 +1565,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1582,7 +1582,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1599,7 +1599,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1616,7 +1616,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1633,7 +1633,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1650,7 +1650,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1667,7 +1667,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1684,7 +1684,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1701,7 +1701,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1718,7 +1718,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1735,7 +1735,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1752,7 +1752,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1769,7 +1769,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1786,7 +1786,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1803,7 +1803,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1820,7 +1820,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1837,7 +1837,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1854,7 +1854,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1871,7 +1871,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1888,7 +1888,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1905,7 +1905,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1922,7 +1922,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1939,7 +1939,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1956,7 +1956,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1973,7 +1973,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -1990,7 +1990,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -2007,7 +2007,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -2024,7 +2024,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -2041,7 +2041,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -2058,7 +2058,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -2075,7 +2075,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -2092,7 +2092,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -2109,7 +2109,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -2126,7 +2126,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -2143,7 +2143,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -2160,7 +2160,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -2177,7 +2177,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -2194,7 +2194,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2211,7 +2211,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2228,7 +2228,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2245,7 +2245,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2262,7 +2262,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2279,7 +2279,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2296,7 +2296,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2313,7 +2313,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2330,7 +2330,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2347,7 +2347,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2364,7 +2364,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2381,7 +2381,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2398,7 +2398,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2415,7 +2415,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2432,7 +2432,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2449,7 +2449,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2466,7 +2466,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2483,7 +2483,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2500,7 +2500,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2517,7 +2517,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2534,7 +2534,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2551,7 +2551,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2568,7 +2568,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2585,7 +2585,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2602,7 +2602,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2619,7 +2619,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -2636,7 +2636,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2653,7 +2653,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2670,7 +2670,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2687,7 +2687,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2704,7 +2704,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2721,7 +2721,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2738,7 +2738,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2755,7 +2755,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2772,7 +2772,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2789,7 +2789,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2806,7 +2806,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2823,7 +2823,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2840,7 +2840,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2857,7 +2857,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2874,7 +2874,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2891,7 +2891,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2908,7 +2908,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2925,7 +2925,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2942,7 +2942,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2959,7 +2959,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2976,7 +2976,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -2993,7 +2993,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3010,7 +3010,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3027,7 +3027,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3044,7 +3044,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3061,7 +3061,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3078,7 +3078,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3095,7 +3095,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3112,7 +3112,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3129,7 +3129,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3146,7 +3146,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3163,7 +3163,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3180,7 +3180,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3197,7 +3197,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3214,7 +3214,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3231,7 +3231,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3248,7 +3248,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3265,7 +3265,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3282,7 +3282,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -3299,7 +3299,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3316,7 +3316,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3333,7 +3333,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3350,7 +3350,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3367,7 +3367,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3384,7 +3384,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3401,7 +3401,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3418,7 +3418,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3435,7 +3435,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3452,7 +3452,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3469,7 +3469,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3486,7 +3486,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3503,7 +3503,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3520,7 +3520,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3537,7 +3537,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3554,7 +3554,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3571,7 +3571,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3588,7 +3588,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3605,7 +3605,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3622,7 +3622,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3639,7 +3639,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3656,7 +3656,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3673,7 +3673,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3690,7 +3690,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3707,7 +3707,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3724,7 +3724,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3741,7 +3741,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3758,7 +3758,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3775,7 +3775,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3792,7 +3792,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3809,7 +3809,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3826,7 +3826,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3843,7 +3843,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3860,7 +3860,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3877,7 +3877,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3894,7 +3894,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3911,7 +3911,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3928,7 +3928,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3945,7 +3945,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -3962,7 +3962,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -3979,7 +3979,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -3996,7 +3996,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4013,7 +4013,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4030,7 +4030,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4047,7 +4047,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4064,7 +4064,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4081,7 +4081,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4098,7 +4098,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4115,7 +4115,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4132,7 +4132,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4149,7 +4149,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4166,7 +4166,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4183,7 +4183,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4200,7 +4200,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4217,7 +4217,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4234,7 +4234,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4251,7 +4251,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4268,7 +4268,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4285,7 +4285,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4302,7 +4302,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4319,7 +4319,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4336,7 +4336,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4353,7 +4353,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4370,7 +4370,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4387,7 +4387,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4404,7 +4404,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4421,7 +4421,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4438,7 +4438,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4455,7 +4455,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4472,7 +4472,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4489,7 +4489,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4506,7 +4506,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4523,7 +4523,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4540,7 +4540,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4557,7 +4557,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4574,7 +4574,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4591,7 +4591,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4608,7 +4608,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -4625,7 +4625,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4642,7 +4642,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4659,7 +4659,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4676,7 +4676,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4693,7 +4693,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4710,7 +4710,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4727,7 +4727,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4744,7 +4744,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4761,7 +4761,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4778,7 +4778,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4795,7 +4795,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4812,7 +4812,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4829,7 +4829,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4846,7 +4846,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4863,7 +4863,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4880,7 +4880,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4897,7 +4897,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4914,7 +4914,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4931,7 +4931,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4948,7 +4948,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4965,7 +4965,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4982,7 +4982,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -4999,7 +4999,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -5016,7 +5016,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -5033,7 +5033,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -5050,7 +5050,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -5067,7 +5067,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5084,7 +5084,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5101,7 +5101,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5118,7 +5118,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5135,7 +5135,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5152,7 +5152,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5169,7 +5169,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5186,7 +5186,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5203,7 +5203,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5220,7 +5220,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5237,7 +5237,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5254,7 +5254,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5271,7 +5271,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -5288,7 +5288,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5305,7 +5305,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5322,7 +5322,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5339,7 +5339,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5356,7 +5356,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5373,7 +5373,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5390,7 +5390,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5407,7 +5407,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5424,7 +5424,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5441,7 +5441,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5458,7 +5458,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5475,7 +5475,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5492,7 +5492,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5509,7 +5509,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5525,7 +5525,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5541,7 +5541,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5557,7 +5557,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5573,7 +5573,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5589,7 +5589,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5605,7 +5605,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5621,7 +5621,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5637,7 +5637,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5653,7 +5653,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5669,7 +5669,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5685,7 +5685,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5701,7 +5701,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "ultraventure",
 	type: "trail",
@@ -5717,7 +5717,7 @@
 	support: 7.5,
 	pliability: 4,
 	inventory: 100
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5734,7 +5734,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5751,7 +5751,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5768,7 +5768,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5785,7 +5785,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5802,7 +5802,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5819,7 +5819,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5836,7 +5836,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5853,7 +5853,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5870,7 +5870,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5887,7 +5887,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5904,7 +5904,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5921,7 +5921,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "hydroventure",
 	type: "trail",
@@ -5938,7 +5938,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -5955,7 +5955,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -5972,7 +5972,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -5989,7 +5989,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6006,7 +6006,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6023,7 +6023,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6040,7 +6040,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6057,7 +6057,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6074,7 +6074,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6091,7 +6091,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6108,7 +6108,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6125,7 +6125,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6142,7 +6142,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6159,7 +6159,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6176,7 +6176,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6193,7 +6193,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6210,7 +6210,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6227,7 +6227,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6244,7 +6244,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6261,7 +6261,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6278,7 +6278,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6295,7 +6295,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6312,7 +6312,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6329,7 +6329,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6346,7 +6346,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6363,7 +6363,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6380,7 +6380,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6397,7 +6397,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6414,7 +6414,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6431,7 +6431,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6448,7 +6448,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6465,7 +6465,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6482,7 +6482,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6499,7 +6499,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6516,7 +6516,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6533,7 +6533,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6550,7 +6550,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6567,7 +6567,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6584,7 +6584,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "terraventure 2",
 	type: "trail",
@@ -6601,7 +6601,7 @@
 	pliability: 7.5,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6618,7 +6618,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6635,7 +6635,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6652,7 +6652,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6669,7 +6669,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6686,7 +6686,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6703,7 +6703,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6720,7 +6720,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6737,7 +6737,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6754,7 +6754,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6771,7 +6771,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6788,7 +6788,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6805,7 +6805,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6822,7 +6822,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6839,7 +6839,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6856,7 +6856,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6873,7 +6873,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6890,7 +6890,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6907,7 +6907,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6924,7 +6924,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6941,7 +6941,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6958,7 +6958,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6975,7 +6975,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -6992,7 +6992,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -7009,7 +7009,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -7026,7 +7026,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "runventure 2",
 	type: "trail",
@@ -7043,7 +7043,7 @@
 	pliability: 8,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7060,7 +7060,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7077,7 +7077,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7094,7 +7094,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7111,7 +7111,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7128,7 +7128,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7145,7 +7145,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7162,7 +7162,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7179,7 +7179,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7196,7 +7196,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7213,7 +7213,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7230,7 +7230,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7247,7 +7247,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7264,7 +7264,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7281,7 +7281,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7298,7 +7298,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7315,7 +7315,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7332,7 +7332,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7349,7 +7349,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7366,7 +7366,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7383,7 +7383,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7400,7 +7400,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7417,7 +7417,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7434,7 +7434,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7451,7 +7451,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7468,7 +7468,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7485,7 +7485,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7502,7 +7502,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7519,7 +7519,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7536,7 +7536,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7553,7 +7553,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7570,7 +7570,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7587,7 +7587,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7604,7 +7604,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7621,7 +7621,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7638,7 +7638,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7655,7 +7655,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7672,7 +7672,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7689,7 +7689,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "mt-2",
 	type: "trail",
@@ -7706,7 +7706,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7723,7 +7723,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7740,7 +7740,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7757,7 +7757,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7774,7 +7774,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7791,7 +7791,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7808,7 +7808,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7825,7 +7825,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7842,7 +7842,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7859,7 +7859,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7876,7 +7876,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7893,7 +7893,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7910,7 +7910,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7927,7 +7927,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7944,7 +7944,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7961,7 +7961,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7978,7 +7978,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -7995,7 +7995,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8012,7 +8012,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8029,7 +8029,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8046,7 +8046,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8063,7 +8063,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8080,7 +8080,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8097,7 +8097,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8114,7 +8114,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8131,7 +8131,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8148,7 +8148,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8165,7 +8165,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8182,7 +8182,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8199,7 +8199,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8216,7 +8216,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8233,7 +8233,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8250,7 +8250,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8267,7 +8267,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8284,7 +8284,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8301,7 +8301,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8318,7 +8318,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8335,7 +8335,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8352,7 +8352,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "ultrafly 2",
 	type: "road",
@@ -8369,7 +8369,7 @@
 	pliability: 7,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8386,7 +8386,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8403,7 +8403,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8420,7 +8420,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8437,7 +8437,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8454,7 +8454,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8471,7 +8471,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8488,7 +8488,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8505,7 +8505,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8522,7 +8522,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8539,7 +8539,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8556,7 +8556,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8573,7 +8573,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8590,7 +8590,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8607,7 +8607,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8624,7 +8624,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8641,7 +8641,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8658,7 +8658,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8675,7 +8675,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8692,7 +8692,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8709,7 +8709,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8726,7 +8726,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8743,7 +8743,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8760,7 +8760,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8777,7 +8777,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8794,7 +8794,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8811,7 +8811,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8828,7 +8828,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8845,7 +8845,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8862,7 +8862,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8879,7 +8879,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8896,7 +8896,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8913,7 +8913,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8930,7 +8930,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8947,7 +8947,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8964,7 +8964,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8981,7 +8981,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -8998,7 +8998,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -9015,7 +9015,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "magnifly 2",
 	type: "road",
@@ -9032,7 +9032,7 @@
 	pliability: 6,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9049,7 +9049,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9066,7 +9066,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9083,7 +9083,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9100,7 +9100,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9117,7 +9117,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9134,7 +9134,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9151,7 +9151,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9168,7 +9168,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9185,7 +9185,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9202,7 +9202,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9219,7 +9219,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9236,7 +9236,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9253,7 +9253,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9270,7 +9270,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9287,7 +9287,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9304,7 +9304,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9321,7 +9321,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9338,7 +9338,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9355,7 +9355,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9372,7 +9372,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9389,7 +9389,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9406,7 +9406,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9423,7 +9423,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9440,7 +9440,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9457,7 +9457,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9474,7 +9474,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9491,7 +9491,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9508,7 +9508,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9525,7 +9525,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9542,7 +9542,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9559,7 +9559,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9576,7 +9576,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9593,7 +9593,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9610,7 +9610,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9627,7 +9627,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9644,7 +9644,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9661,7 +9661,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9678,7 +9678,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "fli-lyte 2",
 	type: "road",
@@ -9695,7 +9695,7 @@
 	pliability: 5,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9712,7 +9712,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9729,7 +9729,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9746,7 +9746,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9763,7 +9763,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9780,7 +9780,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9797,7 +9797,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9814,7 +9814,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9831,7 +9831,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9848,7 +9848,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9865,7 +9865,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9882,7 +9882,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9899,7 +9899,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9916,7 +9916,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9933,7 +9933,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9950,7 +9950,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9967,7 +9967,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -9984,7 +9984,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -10001,7 +10001,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -10018,7 +10018,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -10035,7 +10035,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -10052,7 +10052,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -10069,7 +10069,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -10086,7 +10086,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -10103,7 +10103,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -10120,7 +10120,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "st-2",
 	type: "road",
@@ -10137,7 +10137,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10154,7 +10154,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10171,7 +10171,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10188,7 +10188,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10205,7 +10205,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10222,7 +10222,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10239,7 +10239,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10256,7 +10256,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10273,7 +10273,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10290,7 +10290,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10307,7 +10307,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10324,7 +10324,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10341,7 +10341,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10358,7 +10358,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10375,7 +10375,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10392,7 +10392,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10409,7 +10409,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10426,7 +10426,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10443,7 +10443,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10460,7 +10460,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10477,7 +10477,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10494,7 +10494,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10511,7 +10511,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10528,7 +10528,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10545,7 +10545,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10562,7 +10562,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "cor",
 	type: "gym",
@@ -10579,7 +10579,7 @@
 	pliability: 2,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10596,7 +10596,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10613,7 +10613,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10630,7 +10630,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10647,7 +10647,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10664,7 +10664,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10681,7 +10681,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10698,7 +10698,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10715,7 +10715,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10732,7 +10732,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10749,7 +10749,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10766,7 +10766,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10783,7 +10783,7 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
 {
 	model: "halsa",
 	type: "gym",
@@ -10800,4 +10800,4 @@
 	pliability: 4,
 	inventory: 100
 
-},
+}
