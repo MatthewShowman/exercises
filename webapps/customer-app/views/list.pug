@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title List of Customers
+    body
+        h1 List of Customers
+            a(href="/add")
+                button add
+        table
+            tr
+                th First Name
+                th Last Name
+                th Phone Number
+            each customer in customers
+                tr
+                    td= customer.firstName
+                    td= customer.lastName
+                    td= customer.phoneNumber
+                    td
+                        a(href="/add?CustomerId=" + customer.id)
+                            button modify
+                    td
+                        a(href="/delete?CustomerId=" + customer.id)
+                            button delete
