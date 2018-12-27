@@ -5,7 +5,7 @@
 const mongoose = require('mongoose');
 
 function connect() {
-    mongoose.connect('mongodb://admin:admin1@ds157288.mlab.com:57288/customer-app', { useNewUrlParser: true });
+    mongoose.connect('mongodb://mshowman:LiaoSha831106%40UA@ds243963.mlab.com:43963/shoestore', { useNewUrlParser: true });
 }
 
 function disconnect() {

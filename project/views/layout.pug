@@ -7,9 +7,14 @@ html(lang="en")
         title Topo Shoes
     body
         header
-            table
+            table(style='width:100%')
                 tr
-                    th HOME
-                    th MENS SHOES
-                    th WOMEN SHOES
+                    th 
+                        a(href='/') HOME
+                    th
+                        a(href='/shoes?gender=men') MEN'S SHOES
+                    th
+                        a(href='/shoes?gender=women') WOMEN'S SHOES
+                    th
+                        a(href='/login') LOG IN
         h1 Topo Shoes
