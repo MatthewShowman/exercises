@@ -5,7 +5,7 @@
 const mongoose = require('mongoose');
 
 function connect() {
-    mongoose.connect('mongodb://localhost/auth-local', { useNewUrlParser: true });
+    mongoose.connect('mongodb://localhost/itr-class/', { useNewUrlParser: true });
 }
 
 function disconnect() {

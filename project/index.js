@@ -23,5 +23,4 @@ app.use(express.urlencoded({extended: true}));
 
 app.use('/', routes);
 
-app.listen(2222, () => console.log('listening on port 2222....'));
-
+app.listen('2222', () => console.log('listening on port 2222....'));
