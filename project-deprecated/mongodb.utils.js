@@ -1,16 +1,8 @@
-//createEventListeners
-//connect
-//disconnect
+// createEventListeners
+// connect
+// disconnect
 
 const mongoose = require('mongoose');
-
-function connect() {
-    mongoose.connect('mongodb://localhost/auth-local', { useNewUrlParser: true });
-}
-
-function disconnect() {
-    mongoose.disconnect();
-}
 
 function createEventListeners() {
     mongoose.connection.once('connected', () => {
@@ -22,8 +14,16 @@ function createEventListeners() {
     });
 }
 
+function connect() {
+    mongoose.connect('mongodb://localhost/project', { useNewUrlParser: true });
+}
+
+function disconnect() {
+    mongoose.disconnect();
+}
+
 module.exports = {
+    createEventListeners,
     connect,
     disconnect,
-    createEventListeners,
 }

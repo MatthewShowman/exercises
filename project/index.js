@@ -1,40 +1,27 @@
-//require all dependencies
-    // express
-    // user mongodb utils of connect to the database
-
-//set up server
-    // set up routes for /puppies
-
-//have our server listen
+/*
+    read in our dependencies
+    create a connection to our database
+    create our express app
+    set up expess.json middleware
+    set up the urlencoded middleware
+    tell the app where the routes are
+    have our app listion
+*/
 
 const express = require('express');
-const axios = require('axios');
-const pug = require('pug');
+const mongoDB = require('./mongodb.utils');
+const routes = require('./routes');
 
-const mongodb = require('./mongodb.utils');
-// const Puppy = require('./models/puppy.model');
-const router = require('./routes');
+mongoDB.createEventListeners();
+mongoDB.connect();
 
 const app = express();
+
 app.set('view engine', 'pug');
-
 app.use(express.json());
-app.use('/', router);
+app.use(express.urlencoded({extended: true}));
 
-mongodb.createEventListeners();
-mongodb.connect();
+app.use('/', routes);
 
-// let shoes;
+app.listen(2222, () => console.log('listening on port 2222....'));
 
-// axios.get('localhost:3000/shoes')
-//     .then(response => {
-//         shoes = response.data;
-//     }).catch(err => 
-//         console.error(err)
-//       )
-
-// app.get('/',  (req, res) => {
-//     res.render('shoes.pug', {shoes});
-// });
-
-app.listen('3000', () => console.log('listenin on port 3000'));
