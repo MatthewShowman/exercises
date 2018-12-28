@@ -9,8 +9,18 @@
 */
 
 const express = require('express');
+const fs = require('fs');
+const https = require('https');
+
 const mongoDB = require('./mongodb.utils');
 const routes = require('./routes');
+const sslKey = fs.readFileSync('./ssl/shoe-store-key.pem');
+const sslCert = fs.readFileSync('my-./ssl/shoe-store-cert.pem');
+
+const options = {
+    key: sslKey,
+    cert: sslCert,
+};
 
 mongoDB.createEventListeners();
 mongoDB.connect();
@@ -23,4 +33,4 @@ app.use(express.urlencoded({extended: true}));
 
 app.use('/', routes);
 
-app.listen('2222', () => console.log('listening on port 2222....'));
+https.createServer(options, app).listen('2222', () => console.log('listening on port 2222....'));
