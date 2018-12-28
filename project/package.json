@@ -14,6 +14,7 @@
     "https": "^1.0.0",
     "mongoose": "^5.4.1",
     "passport": "^0.4.0",
-    "passport-local-mongoose": "^5.0.1"
+    "passport-local-mongoose": "^5.0.1",
+    "pug": "^2.0.3"
   }
 }

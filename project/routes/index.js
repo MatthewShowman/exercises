@@ -5,4 +5,11 @@ router.get('/', (req, res) => {
     res.render('layout');
 });
 
+router.get('/login', (req, res) => {
+    res.render('login');
+})
+
+router.get('/shoes')
+
+
 module.exports = router;

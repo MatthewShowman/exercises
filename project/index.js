@@ -15,7 +15,7 @@ const https = require('https');
 const mongoDB = require('./mongodb.utils');
 const routes = require('./routes');
 const sslKey = fs.readFileSync('./ssl/shoe-store-key.pem');
-const sslCert = fs.readFileSync('my-./ssl/shoe-store-cert.pem');
+const sslCert = fs.readFileSync('./ssl/shoe-store-cert.pem');
 
 const options = {
     key: sslKey,
