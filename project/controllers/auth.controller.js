@@ -2,7 +2,7 @@ const passport = require('passport');
 const User = require('../models/user.model'); // Use a capital U because we use this to build objects (like a class)
 
 exports.register = async (req, res, next) => { // these are known as "stubbs" or skeletons
-    let {username, password} = req.body;
+    let {} = req.body;
 
     let user = new User({
         username
@@ -22,7 +22,7 @@ exports.login = (req, res, next) => {
     passport.authenticate('local', { // returns middleware
         failureRedirect: '/login',
         failureFlash: 'username or password is incorrect',
-        successRedirect: req.session.redirectTo || '/secrets',
+        successRedirect: req.session.redirectTo || '/',
         successFlash: 'You are now logged in'
     })(req, res, next);
 }
