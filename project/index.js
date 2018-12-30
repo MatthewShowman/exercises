@@ -11,6 +11,11 @@
 const express = require('express');
 const fs = require('fs');
 const https = require('https');
+const passport = require('passport');
+const flash = require('connect-flash');
+const session = require('express-session');
+const User = require('./models/user.model');
+const routes = require('./routes');
 
 const mongoDB = require('./mongodb.utils');
 const routes = require('./routes');
@@ -22,6 +27,9 @@ const options = {
     cert: sslCert,
 };
 
+assport.use(User.createStrategy());
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
 mongoDB.createEventListeners();
 mongoDB.connect();
 
@@ -30,6 +38,15 @@ const app = express();
 app.set('view engine', 'pug');
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
+
+
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(flash());
+app.use(session({
+    secret: ['bitter beaver', 'dangerous doggy', 'eager echidna'],
+    cookie: { secure: true},
+}));
 
 app.use('/', routes);
 
