@@ -1,0 +1,1 @@
+mongoimport --host ds243963.mlab.com:43963/shoestore --port 27017 --username mshowman --password "LiaoSha831106@UA" --collection products --db shoestore --file /opt/backups/mdb1-examplenet.json

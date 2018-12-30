@@ -10,8 +10,11 @@ const userSchema = mongoose.Schema({
     lastname: String,
     email: String,
     address: String,
+    city: String,
+    state: String,
+    zipcode: String,
     updated: Date.now,
-    orders: String,
+    orders: [{ id: String, date: Date }],
 });
 
 module.exports = mongoose.model('User', userSchema);

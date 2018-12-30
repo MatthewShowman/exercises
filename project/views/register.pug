@@ -6,34 +6,34 @@ block content
     form(action='/login' method='post')
         .form-group
             label(for='firstname') First Name
-            input#username.form-control(type='text' name='username')
+            input#firstname.form-control(type='text' name='firstname' placeholder='First Name' style='width:25%')
         .form-group
             label(for='lastname') Last name
-            input#password.form-control(type='password' name='password')
+            input#lastname.form-control(type='text' name='lastname' placeholder='Last Name' style='width:25%')
         .form-group
             label(for='username') Username
-            input#username.form-control(type='text' name='username')
+            input#username.form-control(type='text' name='username' placeholder='Username' style='width:25%')
         .form-group
             label(for='password') Password
-            input#password.form-control(type='password' name='password')
+            input#password.form-control(type='password' name='password' placeholder='Password' style='width:25%')
         .form-group
             label(for='password') Repeat Password
-            input#username.form-control(type='text' name='username')
+            input#username.form-control(type='text' name='username' placeholder='Repeat Password' style='width:25%')
         .form-group
             label(for='email') Email Address
-            input#password.form-control(type='password' name='password')
+            input#email.form-control(type='text' name='email' placeholder='Email Address' style='width:25%')
         .form-group
             label(for='address') Mailing Address
-            input#username.form-control(type='text' name='username')
+            input#address.form-control(type='text' name='address' placeholder='Mailing Address' style='width:25%')
         .form-group
             label(for='city') City
-            input#password.form-control(type='password' name='password')
+            input#city.form-control(type='text' name='city' placeholder='City' style='width:25%')
         .form-group
             label(for='state') State (Postal Code)
-            input#username.form-control(type='text' name='username')
+            input#state.form-control(type='text' name='state' placeholder='State (Postal Code' style='width:25%')
         .form-group
             label(for='zipcode') Zip Code (5 digits)
-            input#password.form-control(type='password' name='password')
+            input#zipcode.form-control(type='text' name='zipcode' placeholder='Zip Code' style='width:25%')
         button.btn.btn-primary(type='submit') Submit
         br
         a(href='/login') Already have an account?

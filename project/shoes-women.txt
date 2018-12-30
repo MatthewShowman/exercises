@@ -1,7 +1,7 @@
 {
 	"model": "ultraventure",
 	"type": "trail",
-	"gender": "M",
+	"gender": "W",
 	"specs": {
 		"heelStack": "30mm",
 		"foreStack": "25mm",
@@ -12,12 +12,12 @@
 		"pliability": 4,
 		},
 	"price": "$130.00",
-	"color": ["navy/black", grey/gold]
-},
+	"color": ["grey/tangerine", "navy/plum"]
+}
 {
 	"model": "hydroventure",
 	"type": "trail",
-	"gender": "M",
+	"gender": "W",
 	"specs": {
 		"heelStack": "23mm",
 		"foreStack": "20mm",
@@ -28,12 +28,12 @@
 		"pliability": 8,
 		},
 	"price": "$130.00",
-	"color": [navy/black]
-},
+	"color": ["black/turquiose"]
+}
 {
 	"model": "terraventure 2",
 	"type": "trail",
-	"gender": "M",
+	"gender": "W",
 	"specs": {
 		"heelStack": "25mm",
 		"foreStack": "22mm",
@@ -44,12 +44,12 @@
 		"pliability": 7.5,
 		},
 	"price": "$120.00",
-	"color": ["olive/red", red/black, yellow/black]
-},
+	"color": ["slate/poppy", "mint/tangerine", "olive/raisin"]
+}
 {
 	"model": "runventure 2",
 	"type": "trail",
-	"gender": "M",
+	"gender": "W",
 	"specs": {
 		"heelStack": "19mm",
 		"foreStack": "19mm",
@@ -60,12 +60,12 @@
 		"pliability": 8,
 		},
 	"price": "$110.00",
-	"color": ["black/green", grey/red]
-},
+	"color": ["stone/plum", "raspberry/black"]
+}
 {
 	"model": "mt-2",
 	"type": "trail",
-	"gender": "M",
+	"gender": "W",
 	"specs": {
 		"heelStack": "23mm",
 		"foreStack": "20mm",
@@ -76,12 +76,12 @@
 		"pliability": 4,
 		},
 	"price": "$100.00",
-	"color": ["grey/black", blue/mango, navy/grey]
-},
+	"color": ["blue/purple", "black/ice", "indigo/fuschia"]
+}
 {
 	"model": "ultrafly 2",
 	"type": "road",
-	"gender": "M",
+	"gender": "W",
 	"specs": {
 		"heelStack": "28mm",
 		"foreStack": "23mm",
@@ -92,12 +92,12 @@
 		"pliability": 7,
 		},
 	"price": "$120.00",
-	"color": ["grey/black",navy/black, orange/navy]
-},
+	"color": ["pink/yellow", "black/blue", "ice/red"]
+}
 {
 	"model": "magnifly 2",
 	"type": "road",
-	"gender": "M",
+	"gender": "W",
 	"specs": {
 		"heelStack": "25mm",
 		"foreStack": "25mm",
@@ -108,12 +108,12 @@
 		"pliability": 6,
 		},
 	"price": "$110.00",
-	"color": ["brightgreen/black", black/black, slate/black]
-},
+	"color": ["navy/pink", "black/black", "grey/peach", "ice/raspberry"]
+}
 {
 	"model": "fli-lyte 2",
 	"type": "road",
-	"gender": "M",
+	"gender": "W",
 	"specs": {
 		"heelStack": "23mm",
 		"foreStack": "20mm",
@@ -124,12 +124,12 @@
 		"pliability": 5,
 		},
 	"price": "$100.00",
-	"color": ["orange/black", blue/black, grey/black]
-},
+	"color": ["coral/aqua", "black/yellow", "blue/pink"]
+}
 {
 	"model": "st-2",
 	"type": "road",
-	"gender": "M",
+	"gender": "W",
 	"specs": {
 		"heelStack": "16mm",
 		"foreStack": "16mm",
@@ -140,12 +140,12 @@
 		"pliability": 2,
 		},
 	"price": "$90.00",
-	"color": ["navy/black", green/black, grey/orange, grey/black]
-},
+	"color": ["blue/white", "black/raspberry", "grey/green"]
+}
 {
 	"model": "cor",
 	"type": "gym",
-	"gender": "M",
+	"gender": "W",
 	"specs": {
 		"heelStack": "16mm",
 		"foreStack": "16mm",
@@ -157,11 +157,11 @@
 		},
 	"price": "$90.00",
 	"color": ["grey/black", black/black]
-},
+}
 {
 	"model": "halsa",
 	"type": "gym",
-	"gender": "M",
+	"gender": "W",
 	"specs": {
 		"heelStack": "16mm",
 		"foreStack": "16mm",
@@ -172,5 +172,5 @@
 		"pliability": 4,
 		},
 	"price": "$110.00",
-	"color": ["charcoal/mango"]
-},
+	"color": ["emerald/black"]
+}

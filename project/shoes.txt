@@ -1,0 +1,352 @@
+{
+	"model": "ultraventure",
+	"type": "trail",
+	"gender": "M",
+	"specs": {
+		"heelStack": "30mm",
+		"foreStack": "25mm",
+		"drop": "5mm",
+		"weight": "10.4 oz",
+		"cushion": 8,
+		"support": 7.5,
+		"pliability": 4,
+		},
+	"price": "$130.00",
+	"color": ["navy/black", grey/gold]
+}
+{
+	"model": "hydroventure",
+	"type": "trail",
+	"gender": "M",
+	"specs": {
+		"heelStack": "23mm",
+		"foreStack": "20mm",
+		"drop": "3mm",
+		"weight": "9.7 oz",
+		"cushion": 3,
+		"support": 5,
+		"pliability": 8,
+		},
+	"price": "$130.00",
+	"color": [navy/black]
+}
+{
+	"model": "terraventure 2",
+	"type": "trail",
+	"gender": "M",
+	"specs": {
+		"heelStack": "25mm",
+		"foreStack": "22mm",
+		"drop": "3mm",
+		"weight": "10.8 oz",
+		"cushion": 5,
+		"support": 5.5,
+		"pliability": 7.5,
+		},
+	"price": "$120.00",
+	"color": ["olive/red", red/black, yellow/black]
+}
+{
+	"model": "runventure 2",
+	"type": "trail",
+	"gender": "M",
+	"specs": {
+		"heelStack": "19mm",
+		"foreStack": "19mm",
+		"drop": "0mm",
+		"weight": "9.2 oz",
+		"cushion": 5,
+		"support": 4,
+		"pliability": 8,
+		},
+	"price": "$110.00",
+	"color": ["black/green", grey/red]
+}
+{
+	"model": "mt-2",
+	"type": "trail",
+	"gender": "M",
+	"specs": {
+		"heelStack": "23mm",
+		"foreStack": "20mm",
+		"drop": "3mm",
+		"weight": "9 oz",
+		"cushion": 3,
+		"support": 5,
+		"pliability": 4,
+		},
+	"price": "$100.00",
+	"color": ["grey/black", blue/mango, navy/grey]
+}
+{
+	"model": "ultrafly 2",
+	"type": "road",
+	"gender": "M",
+	"specs": {
+		"heelStack": "28mm",
+		"foreStack": "23mm",
+		"drop": "5mm",
+		"weight": "10 oz",
+		"cushion": 8,
+		"support": 7,
+		"pliability": 7,
+		},
+	"price": "$120.00",
+	"color": ["grey/black",navy/black, orange/navy]
+}
+{
+	"model": "magnifly 2",
+	"type": "road",
+	"gender": "M",
+	"specs": {
+		"heelStack": "25mm",
+		"foreStack": "25mm",
+		"drop": "0mm",
+		"weight": "10 oz",
+		"cushion": 8,
+		"support": 5,
+		"pliability": 6,
+		},
+	"price": "$110.00",
+	"color": ["brightgreen/black", black/black, slate/black]
+}
+{
+	"model": "fli-lyte 2",
+	"type": "road",
+	"gender": "M",
+	"specs": {
+		"heelStack": "23mm",
+		"foreStack": "20mm",
+		"drop": "3mm",
+		"weight": "8.4 oz",
+		"cushion": 5,
+		"support": 5,
+		"pliability": 5,
+		},
+	"price": "$100.00",
+	"color": ["orange/black", blue/black, grey/black]
+}
+{
+	"model": "st-2",
+	"type": "road",
+	"gender": "M",
+	"specs": {
+		"heelStack": "16mm",
+		"foreStack": "16mm",
+		"drop": "0mm",
+		"weight": "6.9 oz",
+		"cushion": 2.5,
+		"support": 1.5,
+		"pliability": 2,
+		},
+	"price": "$90.00",
+	"color": ["navy/black", green/black, grey/orange, grey/black]
+}
+{
+	"model": "cor",
+	"type": "gym",
+	"gender": "M",
+	"specs": {
+		"heelStack": "16mm",
+		"foreStack": "16mm",
+		"drop": "0mm",
+		"weight": "6.8 oz",
+		"cushion": 2.5,
+		"support": 1.5,
+		"pliability": 2,
+		},
+	"price": "$90.00",
+	"color": ["grey/black", black/black]
+}
+{
+	"model": "halsa",
+	"type": "gym",
+	"gender": "M",
+	"specs": {
+		"heelStack": "16mm",
+		"foreStack": "16mm",
+		"drop": "0mm",
+		"weight": "7.6 oz",
+		"cushion": 2.5,
+		"support": 1.5,
+		"pliability": 4,
+		},
+	"price": "$110.00",
+	"color": ["charcoal/mango"]
+}
+{
+	"model": "ultraventure",
+	"type": "trail",
+	"gender": "W",
+	"specs": {
+		"heelStack": "30mm",
+		"foreStack": "25mm",
+		"drop": "5mm",
+		"weight": "10.4 oz",
+		"cushion": 8,
+		"support": 7.5,
+		"pliability": 4,
+		},
+	"price": "$130.00",
+	"color": ["grey/tangerine", "navy/plum"]
+}
+{
+	"model": "hydroventure",
+	"type": "trail",
+	"gender": "W",
+	"specs": {
+		"heelStack": "23mm",
+		"foreStack": "20mm",
+		"drop": "3mm",
+		"weight": "9.7 oz",
+		"cushion": 3,
+		"support": 5,
+		"pliability": 8,
+		},
+	"price": "$130.00",
+	"color": ["black/turquiose"]
+}
+{
+	"model": "terraventure 2",
+	"type": "trail",
+	"gender": "W",
+	"specs": {
+		"heelStack": "25mm",
+		"foreStack": "22mm",
+		"drop": "3mm",
+		"weight": "10.8 oz",
+		"cushion": 5,
+		"support": 5.5,
+		"pliability": 7.5,
+		},
+	"price": "$120.00",
+	"color": ["slate/poppy", "mint/tangerine", "olive/raisin"]
+}
+{
+	"model": "runventure 2",
+	"type": "trail",
+	"gender": "W",
+	"specs": {
+		"heelStack": "19mm",
+		"foreStack": "19mm",
+		"drop": "0mm",
+		"weight": "9.2 oz",
+		"cushion": 5,
+		"support": 4,
+		"pliability": 8,
+		},
+	"price": "$110.00",
+	"color": ["stone/plum", "raspberry/black"]
+}
+{
+	"model": "mt-2",
+	"type": "trail",
+	"gender": "W",
+	"specs": {
+		"heelStack": "23mm",
+		"foreStack": "20mm",
+		"drop": "3mm",
+		"weight": "9 oz",
+		"cushion": 3,
+		"support": 5,
+		"pliability": 4,
+		},
+	"price": "$100.00",
+	"color": ["blue/purple", "black/ice", "indigo/fuschia"]
+}
+{
+	"model": "ultrafly 2",
+	"type": "road",
+	"gender": "W",
+	"specs": {
+		"heelStack": "28mm",
+		"foreStack": "23mm",
+		"drop": "5mm",
+		"weight": "10 oz",
+		"cushion": 8,
+		"support": 7,
+		"pliability": 7,
+		},
+	"price": "$120.00",
+	"color": ["pink/yellow", "black/blue", "ice/red"]
+}
+{
+	"model": "magnifly 2",
+	"type": "road",
+	"gender": "W",
+	"specs": {
+		"heelStack": "25mm",
+		"foreStack": "25mm",
+		"drop": "0mm",
+		"weight": "10 oz",
+		"cushion": 8,
+		"support": 5,
+		"pliability": 6,
+		},
+	"price": "$110.00",
+	"color": ["navy/pink", "black/black", "grey/peach", "ice/raspberry"]
+}
+{
+	"model": "fli-lyte 2",
+	"type": "road",
+	"gender": "W",
+	"specs": {
+		"heelStack": "23mm",
+		"foreStack": "20mm",
+		"drop": "3mm",
+		"weight": "8.4 oz",
+		"cushion": 5,
+		"support": 5,
+		"pliability": 5,
+		},
+	"price": "$100.00",
+	"color": ["coral/aqua", "black/yellow", "blue/pink"]
+}
+{
+	"model": "st-2",
+	"type": "road",
+	"gender": "W",
+	"specs": {
+		"heelStack": "16mm",
+		"foreStack": "16mm",
+		"drop": "0mm",
+		"weight": "6.9 oz",
+		"cushion": 2.5,
+		"support": 1.5,
+		"pliability": 2,
+		},
+	"price": "$90.00",
+	"color": ["blue/white", "black/raspberry", "grey/green"]
+}
+{
+	"model": "cor",
+	"type": "gym",
+	"gender": "W",
+	"specs": {
+		"heelStack": "16mm",
+		"foreStack": "16mm",
+		"drop": "0mm",
+		"weight": "6.8 oz",
+		"cushion": 2.5,
+		"support": 1.5,
+		"pliability": 2,
+		},
+	"price": "$90.00",
+	"color": ["grey/black", black/black]
+}
+{
+	"model": "halsa",
+	"type": "gym",
+	"gender": "W",
+	"specs": {
+		"heelStack": "16mm",
+		"foreStack": "16mm",
+		"drop": "0mm",
+		"weight": "7.6 oz",
+		"cushion": 2.5,
+		"support": 1.5,
+		"pliability": 4,
+		},
+	"price": "$110.00",
+	"color": ["emerald/black"]
+}
