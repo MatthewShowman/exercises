@@ -14,11 +14,11 @@ const https = require('https');
 const passport = require('passport');
 const flash = require('connect-flash');
 const session = require('express-session');
+
 const User = require('./models/user.model');
 const routes = require('./routes');
-
 const mongoDB = require('./mongodb.utils');
-const routes = require('./routes');
+
 const sslKey = fs.readFileSync('./ssl/shoe-store-key.pem');
 const sslCert = fs.readFileSync('./ssl/shoe-store-cert.pem');
 
@@ -27,9 +27,9 @@ const options = {
     cert: sslCert,
 };
 
-assport.use(User.createStrategy());
-passport.serializeUser(User.serializeUser());
-passport.deserializeUser(User.deserializeUser());
+// passport.use(User.createStrategy());
+// passport.serializeUser(User.serializeUser());
+// passport.deserializeUser(User.deserializeUser());
 mongoDB.createEventListeners();
 mongoDB.connect();
 
