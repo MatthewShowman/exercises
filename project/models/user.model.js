@@ -3,7 +3,10 @@ const mongoose = require('mongoose');
 // create the user schema
 
 const userSchema = mongoose.Schema({
-    role: String,
+    role: {
+        type: String,
+        default: "user"
+    },
     username: {
         type: String,
         trim: true,
