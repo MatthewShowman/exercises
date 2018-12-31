@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    table(style='width:100%')
+        tr
+            td 
+                a(href='/shoes')
+                    //- Change to '/shoes?gender=men'
+                    img(src='/static/man-titled.jpg' height='auto' width='800' alt='Man running; link to mens shoes')
+            td
+                a(href='/shoes')
+                    //- Change to '/shoes?gender=women'
+                    img(src='/static/woman-titled.jpg' height='auto' width='800' alt='Woman running; link to womens shoes')

@@ -1,11 +1,14 @@
 /*
-    read in our dependencies
+    read in dependencies
+    read in routes
+    rtead in ssl docs
+    create a passport strategy
+    create an express app
     create a connection to our database
-    create our express app
     set up expess.json middleware
     set up the urlencoded middleware
-    tell the app where the routes are
-    have our app listion
+    set up passport session
+    have our app listen / create a https connection
 */
 
 const express = require('express');
@@ -14,6 +17,7 @@ const https = require('https');
 const passport = require('passport');
 const flash = require('connect-flash');
 const session = require('express-session');
+const path = require('path');
 
 const User = require('./models/user.model');
 const routes = require('./routes');
@@ -22,7 +26,7 @@ const mongoDB = require('./mongodb.utils');
 const sslKey = fs.readFileSync('./ssl/shoe-store-key.pem');
 const sslCert = fs.readFileSync('./ssl/shoe-store-cert.pem');
 
-const options = {
+const options = { // new certs will be needed in the future
     key: sslKey,
     cert: sslCert,
 };
@@ -49,5 +53,6 @@ app.use(session({
 }));
 
 app.use('/', routes);
+app.use(express.static(path.join(__dirname, 'views')))
 
 https.createServer(options, app).listen('2222', () => console.log('listening on port 2222....'));

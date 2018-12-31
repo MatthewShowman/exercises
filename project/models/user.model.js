@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // create the user schema
 
 const userSchema = mongoose.Schema({
-    role: {
+    role: { // This should only be made editable by administrators
         type: String,
         default: "user"
     },
@@ -48,7 +48,7 @@ const userSchema = mongoose.Schema({
         type: Date,
         default: Date.now
     }, 
-    orders: [
+    orders: [ // This will be empty at first. Purchases will push objects to the array
         {
             id: String,
             date: {

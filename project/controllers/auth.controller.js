@@ -1,23 +1,29 @@
 const passport = require('passport');
-const User = require('../models/user.model'); // Use a capital U because we use this to build objects (like a class)
+const User = require('../models/user.model');
 
-exports.register = async (req, res, next) => { // these are known as "stubbs" or skeletons
-    let {} = req.body;
+exports.register = async (req, res, next) => {
+    newUser = req.body; // How can I get all of the req.body values to be included in creating a new user?
 
     let user = new User({
-        username
+        username: newUser.username
     });
 
+    // Add an if-then statement to check for in-use usernames & email address
+
     try {
-        let registeredUser = await User.register(user, password); // register is from the passport-local-mongoose plugin
+         // register is from the passport-local-mongoose plugin
+         // I don't think it needs to be required... I may be wrong
+        let registeredUser = await User.register(user, newUser.password);
         await registeredUser.save;
-        next(); // need to pass user to the login middleware
+        next();
     }
     catch (error) {
         res.redirect('/register');
     }
 }
 
+
+// Edit ALL  of these 
 exports.login = (req, res, next) => {
     passport.authenticate('local', { // returns middleware
         failureRedirect: '/login',
@@ -29,7 +35,7 @@ exports.login = (req, res, next) => {
 
 exports.logout = (req, res) => {
     req.logout();
-    req.flash('success', 'You are now logged out'); // made useable later by connect-flash module
+    req.flash('success', 'You are now logged out');
     res.redirect('/login');
 }
 
