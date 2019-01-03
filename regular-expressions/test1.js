@@ -40,6 +40,9 @@ function getNumbers (randomString) {
 
 function formatPhoneNumber(phoneNumber) {
     let numArray = phoneNumber.match(/\d{3,}/g);
+    // let numbers = phoneNumber.match(/\d+/g)
+    // numbers.shift();
+    // return numbers.join("");
     let formatttedNum = numArray.join("");
     return formatttedNum;
 }
