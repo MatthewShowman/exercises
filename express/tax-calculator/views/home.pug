@@ -8,8 +8,8 @@ html(lang="en")
     body
         h1 Tax Calculator
         form(action="/", method="post")
-            label(for='income') Gross Income
+            label(for='income') Gross Income: 
             input#income(type='number' name='income' style='width:25%')
             button.btn.btn-primary(type='submit') Submit
-        p= `Tax Amount: ${taxes.tax}`
+        p= `Tax Amount: $${taxes.tax}`
                 
