@@ -23,4 +23,4 @@ app.use(express.urlencoded({extended: true}));
 
 app.use('/', routes);
 
-app.listen(process.env.PORT || 3000, () => console.log('listening...'));
+app.listen(process.env.PORT || 3000, () => console.log('listening port 3000...'));

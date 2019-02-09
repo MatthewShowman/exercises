@@ -5,7 +5,13 @@
 const mongoose = require('mongoose');
 
 function connect() {
-    mongoose.connect('mongodb://admin:admin1@ds157288.mlab.com:57288/customer-app', { useNewUrlParser: true });
+    let mongoURL = process.env.MYAPP_MONGO_URL || 'mongodb://localhost/cusotmer-app';
+    mongoose.connect(mongoURL, { useNewUrlParser: true })
+    
+    // if(process.env.MYAPP_MONGO_URL)
+    //     mongoose.connect(process.env.MYAPP_MONGO_URL, { useNewUrlParser: true });
+    // else
+    //     mongoose.connect('mongodb://localhost/cusotmer-app');
 }
 
 function disconnect() {
