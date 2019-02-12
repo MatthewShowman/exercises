@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width">
+ <title>JS Bin</title>
+ <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+</head>
+<body>
+ Students
+ <form action="/students" method="POST">
+  <div id="students">
+  </div>
+  <button onClick="addStudentRow()" type="button">Add Student</button>
+  <br/>
+  <button type="submit">Submit</button>
+ </form>
+ <script>
+  function addStudentRow() {
+   $("#students").append(`
+    <label>Name</label><input type="text" name="name[]" /> 
+    <label>Email</label><input type="email" name="email[]" />
+    <br/>
+   `);
+  }
+ </script>
+</body>
+</html>
