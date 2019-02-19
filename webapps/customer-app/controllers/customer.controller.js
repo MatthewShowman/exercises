@@ -2,7 +2,7 @@ const Customer = require('../models/customer.model');
 
 exports.listPage = async (req, res) => {
     let customers = await Customer.find({});
-    let environment = PROCESS.env.MYAPP_ENV || "development";
+    let environment = process.env.MYAPP_ENV || "development";
     res.render('list', {customers, environment});
 }
 

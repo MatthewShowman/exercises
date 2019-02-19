@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Document
+  body
+    h1 Add Customer
+    form(action="/add", method="post")
+      p
+        label(for="firstName") First Name
+        br
+        input(type="text", id="firstName", name="firstName", value=customer ? customer.firstName : "")
+      p
+        label(for="lastName") Last Name
+        br
+        input(type="text", id="lastName", name="lastName", value=customer ? customer.lastName : "")
+      input(type="hidden", name="customerId", value=customer ? customer.id : "")
+      input(type="submit", value="Submit")

@@ -8,4 +8,8 @@ const customerSchema = mongoose.Schema({
     phoneNumber: String,
 });
 
+customerSchema.virtual("fullname").get( function() {
+    return this.firstName + " " + this.lastName;
+});
+
 module.exports = mongoose.model('Customer', customerSchema);
